@@ -1,0 +1,104 @@
+baseURL: ''
+title: Katanac
+languageCode: en-us
+DefaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+darkmode_js:
+  - assets/js/darkmode.js
+enableInlineShortcodes: true
+
+params:
+  author: Aleksa Siriški
+  authorimage: ../assets/images/global/author.webp
+  og_image: /images/tailbliss-cover.png
+  moto: "Zaključaj svoj digitalni život."
+  description: "Manjak privatnosti znači manjak slobode govora. Ne dozvolite drugima da kontrolišu ono što je Vaše."
+  disable_theme_toggle: false
+  disable_stay_uptodate: true
+
+  p1:
+    heading: "Prosečan mobilni uređaj"
+    content:
+      - text: "Google ima apsolutnu kontrolu nad Vašim uređajem, i vi nemate izbora u tome."
+      - text: "Metadata u slikama čuva geolokaciju svaki put kada nešto fotografišete."
+      - text: "Ne birate čemu svaka aplikacija može da pristupi."
+      - text: "Životni vek običnog telefona je od 1 do 3 godine."
+  p2:
+    heading: "Katanac telefon"
+    content:
+      - text: "Na Vama je da li hoćete Google u Vašem života, kao što je i njegov pristup uređaju."
+      - text: "Ugašena metadata prilikom fotografisanja."
+      - text: "Dubok nivo permisija po aplikaciji, poput pristupa internetu i čak lažiranja fajlsistema."
+      - text: "Životni vek 5 godina + 2 godine bezbednosnih ažuriranja."
+
+  social_media:
+    github:
+      enabled: false
+    facebook:
+      enabled: false
+    instagram:
+      enabled: false
+    twitter:
+      enabled: false
+
+menu:
+  main:
+    - identifier: about
+      name: O nama
+      url: /about/
+      weight: 10
+    - identifier: faq
+      name: Česta pitanja
+      url: /faq/
+      weight: 20
+    - identifier: contact
+      name: Kontakt
+      url: /contact/
+      weight: 30
+  footer: []
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+server:
+  headers:
+    - for: /**
+      values:
+        Referrer-Policy: strict-origin-when-cross-origin
+
+module:
+  imports:
+    - path: github.com/aleksasiriski/tailbliss
