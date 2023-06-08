@@ -42,12 +42,18 @@ params:
       - text: Pogledaj izvorni kod našeg sajta
         url: "https://github.com/tminaorg/katanac"
     logos:
-      - l1: a
-      - l1: a
-      - l1: a
-      - l1: a
-      - l1: a
-      - l1: a
+      - identifier: android
+        image: "images/sponsors/android.png"
+        alt: "Android"
+      - identifier: grapheneos
+        image: "images/sponsors/grapheneos.svg"
+        alt: "GrapheneOS"
+      - identifier: signal
+        image: "images/sponsors/signal.png"
+        alt: "Signal"
+      - identifier: d
+      - identifier: e
+      - identifier: f
   p4:
     heading: "Izdvojeno iz bloga"
     content:
