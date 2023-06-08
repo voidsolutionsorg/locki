@@ -41,6 +41,13 @@ params:
     links:
       - text: Pogledaj izvorni kod našeg sajta
         url: "https://github.com/tminaorg/katanac"
+    logos:
+      - l1: a
+      - l1: a
+      - l1: a
+      - l1: a
+      - l1: a
+      - l1: a
   p4:
     heading: "Izdvojeno iz bloga"
     content:
