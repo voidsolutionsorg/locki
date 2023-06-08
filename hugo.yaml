@@ -16,30 +16,30 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Zaključaj svoj digitalni život."
-  description: "Manjak privatnosti znači manjak slobode govora. Ne dozvolite drugima da kontrolišu ono što je Vaše."
+  description: "Manjak privatnosti znači manjak slobode. Ne dozvoli drugima da kontrolišu ono što je tvoje."
   disable_theme_toggle: false
   disable_stay_uptodate: true
 
   p1:
     heading: "Prosečan mobilni uređaj"
     content:
-      - text: "Google ima apsolutnu kontrolu nad Vašim uređajem, i vi nemate izbora u tome."
-      - text: "Metadata u slikama čuva geolokaciju svaki put kada nešto fotografišete."
-      - text: "Ne birate čemu svaka aplikacija može da pristupi."
+      - text: "Google ima apsolutnu kontrolu nad tvojim uređajem, i ti nemaš izbora u tome."
+      - text: "Metadata u slikama čuva geolokaciju svaki put kada nešto fotografišeš."
+      - text: "Ne biraš čemu svaka aplikacija može da pristupi."
       - text: "Životni vek običnog telefona je od 1 do 3 godine."
   p2:
     heading: "Katanac telefon"
     content:
-      - text: "Na Vama je da li hoćete Google u Vašem života, kao što je i njegov pristup uređaju."
-      - text: "Ugašena metadata prilikom fotografisanja."
-      - text: "Dubok nivo permisija po aplikaciji, poput pristupa internetu i čak lažiranja fajlsistema."
+      - text: "Na tebi je da li hoćeš Google u svom životu."
+      - text: "Svojevoljno ugasi metadata prilikom fotografisanja."
+      - text: "Dubok nivo permisija po aplikaciji, poput pristupa internetu i lažiranja fajlsistema."
       - text: "Životni vek 5 godina + 2 godine bezbednosnih ažuriranja."
   p3:
     heading: "Tehnologije koje koristimo"
     content:
       - text: "Primarne tehnologije i aplikacije otvorenog izvornog koda koje su u upotrebi na Katanac telefonu."
     links:
-      - text: Pogledajte izvorni kod našeg sajta
+      - text: Pogledaj izvorni kod našeg sajta
         url: "https://github.com/tminaorg/katanac"
   p4:
     heading: "Izdvojeno iz bloga"
