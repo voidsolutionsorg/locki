@@ -23,17 +23,17 @@ params:
   p1:
     heading: "Prosečan mobilni uređaj"
     content:
-      - text: "Google ima apsolutnu kontrolu nad tvojim uređajem, i ti nemaš izbora u tome."
-      - text: "Metadata u slikama čuva geolokaciju svaki put kada nešto fotografišeš."
+      - text: "Google ima apsolutnu kontrolu nad tvojim uređajem, i moraš da se pomiriti sa tim."
       - text: "Ne biraš čemu svaka aplikacija može da pristupi."
-      - text: "Životni vek običnog telefona je od 1 do 3 godine."
+      - text: "Metadata u slikama čuva geolokaciju svaki put kada nešto fotografišeš."
+      - text: "Životni vek običnog telefona je od 1 do 3 godine, uprkos tome što je hardver i dalje adekvatan."
   p2:
     heading: "Katanac telefon"
     content:
-      - text: "Na tebi je da li hoćeš Google u svom životu."
-      - text: "Svojevoljno ugasi metadata prilikom fotografisanja."
+      - text: "Na tebi je da li hoćeš Google u svom životu i u kojoj meri."
       - text: "Dubok nivo permisija po aplikaciji, poput pristupa internetu i lažiranja fajlsistema."
-      - text: "Životni vek 5 godina + 2 godine bezbednosnih ažuriranja."
+      - text: "Svojevoljno ugasi metadata prilikom fotografisanja."
+      - text: "Životni vek 5 godina + 2 godine bezbednosnih ažuriranja, dovoljno da istraje hardver."
   p3:
     heading: "Tehnologije koje koristimo"
     content:
