@@ -34,6 +34,17 @@ params:
       - text: "Ugašena metadata prilikom fotografisanja."
       - text: "Dubok nivo permisija po aplikaciji, poput pristupa internetu i čak lažiranja fajlsistema."
       - text: "Životni vek 5 godina + 2 godine bezbednosnih ažuriranja."
+  p3:
+    heading: "Tehnologije koje koristimo"
+    content:
+      - text: "Primarne tehnologije i aplikacije otvorenog izvornog koda koje su u upotrebi na Katanac telefonu."
+    links:
+      - text: Pogledajte izvorni kod našeg sajta
+        url: "https://github.com/tminaorg/katanac"
+  p4:
+    heading: "Izdvojeno iz bloga"
+    content:
+      - text: "Najzanimljivije teme za čitanje"
 
   social_media:
     github:
@@ -55,10 +66,31 @@ menu:
       name: Česta pitanja
       url: /faq/
       weight: 20
+    - identifier: dropdown_features
+      name: Mogućnosti
+      url: /features/
+      weight: 30
     - identifier: contact
       name: Kontakt
       url: /contact/
+      weight: 40
+  dropdown_features:
+    - identifier: grapheneos
+      name: GrapheneOS
+      url: /features/grapheneos/
+      weight: 10
+    - identifier: profiles
+      name: Profili
+      url: /features/profiles/
+      weight: 20
+    - identifier: permissions
+      name: Permisije
+      url: /features/permissions/
       weight: 30
+    - identifier: messengers
+      name: Dopisivanje
+      url: /features/messengers/
+      weight: 40
   footer: []
 
 markup:
