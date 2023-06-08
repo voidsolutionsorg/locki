@@ -73,30 +73,13 @@ menu:
       name: Česta pitanja
       url: /faq/
       weight: 20
-    - identifier: dropdown_features
+    - identifier: features
       name: Mogućnosti
       url: /features/
       weight: 30
     - identifier: contact
       name: Kontakt
       url: /contact/
-      weight: 40
-  dropdown_features:
-    - identifier: grapheneos
-      name: GrapheneOS
-      url: /features/grapheneos/
-      weight: 10
-    - identifier: profiles
-      name: Profili
-      url: /features/profiles/
-      weight: 20
-    - identifier: permissions
-      name: Permisije
-      url: /features/permissions/
-      weight: 30
-    - identifier: messengers
-      name: Dopisivanje
-      url: /features/messengers/
       weight: 40
   footer: []
 
