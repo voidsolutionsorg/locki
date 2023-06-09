@@ -23,7 +23,8 @@ params:
   p1:
     heading: "Prosečan mobilni uređaj"
     content:
-      - text: "Iako Google mnogima olakšava svakodnevni život [moramo dodati primere],  "
+      - text: "Iako Google mnogima olakšava svakodnevni život [moramo dodati primere], kompanija ipak zarađuje 
+              skupljanjem podataka korisnika koje kasnije prodaje drugim kompanijama "
       - text: "Fabrička podešavanja aplikacija na običnom telefonu dozvoljavaju aplikacijama 
               pristup svim podacima i periferijama (kamera, mikrofon,navigacja...). 
               Većina aplikacija odbija da radi ukoliko korisnik svojeručno ne dozvoli aplikaciji 
@@ -37,9 +38,11 @@ params:
   p2:
     heading: "Katanac telefon"
     content:
-      - text: "Na tebi je da li hoćeš Google u svom životu i u kojoj meri."
+      - text: "Korisnik dobija potpuno ociscen telefon od googe aplikacija koje je moguće instalirati i to 
+              u verziji koja radi bez naloga koji prikuplja podatke o vama."
       - text: "Katanac telefon pruža korisniku priliku da odabere šta aplikacija koja aplikacija može da koristi, ukoliko aplikacija odbija da radi bez pristupa određenim periferijama ili memoriji katanac je sposoban da lažno dozvoli pristup aplikaciji tako da aplikacija radi i bez pristupa."
-      - text: "Svojevoljno ugasi metadata prilikom fotografisanja."
+      - text: "Fotografija slikana Katanac telefonom cuva samo svoju rezoluciju u svojim podacima. Naravno ukoliko
+              korisnik želi da fotografija čuva sve ostale podatle može uvek da uključi čuvanje tih podataka"
       - text: "Katanac telefon dobija podršku pet godina uz dodatne dve godine podrske sigurnosnog sistema,[dodao bi ja jos nes] "
   p3:
     heading: "Tehnologije koje koristimo"
