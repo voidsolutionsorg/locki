@@ -153,3 +153,5 @@ module:
         - source: assets
           target: assets
           excludeFiles: images/*
+
+          
