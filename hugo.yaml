@@ -23,17 +23,32 @@ params:
   p1:
     heading: "Prosečan mobilni uređaj"
     content:
-      - text: "Google ima apsolutnu kontrolu nad tvojim uređajem, i moraš da se pomiriti sa tim."
-      - text: "Ne biraš čemu svaka aplikacija može da pristupi."
-      - text: "Metadata u slikama čuva geolokaciju svaki put kada nešto fotografišeš."
-      - text: "Životni vek običnog telefona je od 1 do 3 godine, uprkos tome što je hardver i dalje adekvatan."
+      - text: "Iako Google mnogima olakšava svakodnevni život [moramo dodati primere], kompanija ipak zarađuje 
+              skupljanjem podataka korisnika koje kasnije prodaje drugim kompanijama 
+              "
+      - text: "Fabrička podešavanja aplikacija na običnom telefonu dozvoljavaju aplikacijama 
+              pristup svim podacima i periferijama (kamera, mikrofon,navigacja...). 
+              Većina aplikacija odbija da radi ukoliko korisnik svojeručno ne dozvoli aplikaciji 
+              pristup svojim podacima"
+      - text: "Svaka fotografija slikana običnim telefonom u podacima slike (picture metadata) 
+              ima sacuvane tacne koorditane nesta na kom je fotografija nastala kao 
+              i mnoge druge informacije. Dobro razmislite pre nego što pošaljete nekome neku sliku ili je 
+              okačite na društvene mreže pošto svako ko poseduje fotografiju ima pristup sacuvanim podacima o vama"
+      - text: "Prosečan telefon dobija softversku podršku od proizvođača u periodu od jedne do tri godine, 
+              što znači da je telefon nakon tog perioda potpuno nezaštićen od neželjenih napada"
   p2:
     heading: "Katanac telefon"
     content:
-      - text: "Na tebi je da li hoćeš Google u svom životu i u kojoj meri."
-      - text: "Dubok nivo permisija po aplikaciji, poput pristupa internetu i lažiranja fajlsistema."
-      - text: "Svojevoljno ugasi metadata prilikom fotografisanja."
-      - text: "Životni vek 5 godina + 2 godine bezbednosnih ažuriranja, dovoljno da istraje hardver."
+      - text: "Korisnik dobija telefon bez google sistema i aplikacija koje se mogu vratiti na telefon u stabilnoj sandbox 
+              verziji ili u neuporedivo bezbednijoj ali manje stabilnoj aurora store verziji. Za razliku ove dve verzije 
+              pritisnuti ovde."
+      - text: "Katanac telefon pruža korisniku priliku da odabere šta koja aplikacija može da koristi. 
+              Ukoliko aplikacija odbija da radi bez pristupa određenim periferijama ili memoriji katanac kreira lažnu 
+              dozvolu aplikaciji tako da ona radi i bez stvarnog pristupa."
+      - text: "Fotografija slikana Katanac telefonom u svojim podacima ima samo sopstvenu rezoluciju. Ukoliko
+              korisnik želi da fotografija čuva sve ostale podatke može uvek uključiti čuvanje tih podataka"
+      - text: "Katanac telefon dobija podršku pet godina uz dodatne dve godine podrške sigurnosnog sistema, sigurnosna unapređejna 
+              dodaju se svakih mesec dana što znači da je sistem uvek korak ispred mogućih napadača narednih sedam godina "
   p3:
     heading: "Tehnologije koje koristimo"
     content:
