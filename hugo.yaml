@@ -158,4 +158,4 @@ module:
         - source: assets
           target: assets
           excludeFiles: images/*
-
+    - path: "github.com/gohugoio/hugo-mod-jslibs-dist/alpinejs/v3"
