@@ -23,7 +23,7 @@ params:
   p1:
     heading: "Prosečan mobilni uređaj"
     content:
-      - text: "Iako Google mnogima olakšava svakodnevni život, biznis model im je da ako je nešto besplatno onda su korisnički podaci proizvod."
+      - text: "Iako Google mnogima olakšava svakodnevni život, njihov način poslovanja jeste da se usluge plaćaju korisničkim podacima."
       - text: "Dozvoljeni pristup slikama na običnom telefonu uključuje i pristup svakom fajlu na telefonu.
               Većina aplikacija odbija da radi ukoliko korisnik svojeručno ne dozvoli aplikaciji 
               pristup određenim periferijama (kamera, mikrofon, lokacija)."

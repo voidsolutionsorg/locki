@@ -9,7 +9,8 @@ featured_image: ../assets/images/featured/featured-img-placeholder.png
 
 ## O sistemu
 
-Graphene OS je operativni sistem maksimalno osvrnut ka bezbednosti 
+Stvoren 2014 kao neprofitni projekat otvorenog tipa (kod celog projekta je javno dostupan) Graphene OS je operativni sistem osvrnut ka maksimalnoj mogućoj bezbednosti korisnika na internetu, koji uz pažljivo odabrane, bezbedne aplikacije i pametnu upotrebu čini Vaš telefon nebrojano puta bezbedniji od običnog. 
+
 
 
 
@@ -22,12 +23,11 @@ Graphene OS je operativni sistem maksimalno osvrnut ka bezbednosti
 
 > Graphene je put kojim treba poći ukoliko cenite bezbednost i privatnost
 
+*Jedan od najvećih tehnoloških blogova - "Make Use Of"*
 
 
 
-
-
-# h1 Heading :blush:
+# h1 Heading
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
