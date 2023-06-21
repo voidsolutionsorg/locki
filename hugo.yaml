@@ -23,32 +23,26 @@ params:
   p1:
     heading: "Prosečan mobilni uređaj"
     content:
-      - text: "Iako Google mnogima olakšava svakodnevni život [moramo dodati primere], kompanija ipak zarađuje 
-              skupljanjem podataka korisnika koje kasnije prodaje drugim kompanijama 
-              "
-      - text: "Fabrička podešavanja aplikacija na običnom telefonu dozvoljavaju aplikacijama 
-              pristup svim podacima i periferijama (kamera, mikrofon,navigacja...). 
+      - text: "Iako Google mnogima olakšava svakodnevni život, biznis model im je da ako je nešto besplatno onda su korisnički podaci proizvod."
+      - text: "Dozvoljeni pristup slikama na običnom telefonu uključuje i pristup svakom fajlu na telefonu.
               Većina aplikacija odbija da radi ukoliko korisnik svojeručno ne dozvoli aplikaciji 
-              pristup svojim podacima"
+              pristup određenim periferijama (kamera, mikrofon, lokacija)."
       - text: "Svaka fotografija slikana običnim telefonom u podacima slike (picture metadata) 
-              ima sacuvane tacne koorditane nesta na kom je fotografija nastala kao 
-              i mnoge druge informacije. Dobro razmislite pre nego što pošaljete nekome neku sliku ili je 
-              okačite na društvene mreže pošto svako ko poseduje fotografiju ima pristup sacuvanim podacima o vama"
+              sadrži sačuvanu rezoluciju, model telefona, tip kamere kao i tačne koorditane mesta na kom je fotografija nastala."
       - text: "Prosečan telefon dobija softversku podršku od proizvođača u periodu od jedne do tri godine, 
               što znači da je telefon nakon tog perioda potpuno nezaštićen od neželjenih napada"
   p2:
     heading: "Locki telefon"
     content:
-      - text: "Korisnik dobija telefon bez google sistema i aplikacija koje se mogu vratiti na telefon u stabilnoj sandbox 
-              verziji ili u neuporedivo bezbednijoj ali manje stabilnoj aurora store verziji. Za razliku ove dve verzije 
-              pritisnuti ovde."
-      - text: "Locki telefon pruža korisniku priliku da odabere šta koja aplikacija može da koristi. 
+      - text: "Korisnik dobija telefon bez Google sistema i aplikacija koje se mogu vratiti na telefon u stabilnoj sandbox 
+              verziji ili upotrebom alternativnih privatnijih rešenja poput FDroid i Aurora store."
+      - text: "Pored osnovnih nivoa dozvola Locki telefon pruža korisniku priliku da odabere tačan fajl / sliku / video kojem aplikacija može da pristupi. 
               Ukoliko aplikacija odbija da radi bez pristupa određenim periferijama ili memoriji locki kreira lažnu 
-              dozvolu aplikaciji tako da ona radi i bez stvarnog pristupa."
+              dozvolu aplikaciji tako da ona radi neometano bez stvarnog pristupa."
       - text: "Fotografija slikana Locki telefonom u svojim podacima ima samo sopstvenu rezoluciju. Ukoliko
-              korisnik želi da fotografija čuva sve ostale podatke može uvek uključiti čuvanje tih podataka"
-      - text: "Locki telefon dobija podršku pet godina uz dodatne dve godine podrške sigurnosnog sistema, sigurnosna unapređejna 
-              dodaju se svakih mesec dana što znači da je sistem uvek korak ispred mogućih napadača narednih sedam godina "
+              korisnik želi da fotografija čuva sve ostale podatke može uvek uključiti čuvanje tih podataka."
+      - text: "Locki telefon dobija podršku pet godina uz dodatne dve godine podrške sigurnosnog sistema. Sigurnosna unapređenja 
+              dodaju se svakih mesec dana što znači da je sistem uvek korak ispred mogućih napadača narednih sedam godina."
   p3:
     heading: "Tehnologije koje koristimo"
     content:

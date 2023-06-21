@@ -1,1 +1,1 @@
-# katanac
+# locki.tech
