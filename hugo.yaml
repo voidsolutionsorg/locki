@@ -15,7 +15,7 @@ params:
   author: "Tmina Org"
   authorimage: "../assets/images/global/author.webp"
   og_image: "/images/tailbliss-cover.png"
-  logo: "/images/homepage/site-logo.png"
+  logo: "/images/homepage/site-logo.svg"
   alt: "logo"
   moto: "Zaključaj svoj digitalni život."
   description: "Manjak privatnosti znači manjak slobode. Ne dozvoli drugima da kontrolišu ono što je tvoje."
