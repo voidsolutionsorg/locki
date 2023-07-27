@@ -3,7 +3,7 @@ title: "Podaci u fotografijama"
 date: 2021-12-18T11:10:36+08:00
 draft: false
 language: en
-description: About Us
+description: O operativnom sistemu
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 U današnje vreme telefon ima mnogobrojne upotrebe od kojih je jedna od najvećih mogućnost fotografisanja, po poslednjim istraživanjima prosečan telefon u sebi ima oko 2000 fotografija a 92.5% svih fotografija napravljeno je telefonom.

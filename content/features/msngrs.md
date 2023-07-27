@@ -20,4 +20,8 @@ Ovo su neke naše preporuke šta je možda najbezbednije za dopisivanje.
 
 ### Briar
 
+Briar se ne oslanja na skladištenje podataka u serverima već na direktnu komunikaciju između dva telefona pa tako krađu i nadgledanje razgovora postaje nemoguće.
+
+Velika prednost ove aplikacije je što joj za rad nije potrebna internet konekcija već se telefoni međusobno mogu povezati wifi-jem ili čak bluetooth-om, tako stvarajući lanac povezanih uređaja.
+
 ### Telegram
