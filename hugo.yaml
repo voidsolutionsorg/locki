@@ -23,7 +23,7 @@ params:
   p1:
     heading: "Prosečan mobilni uređaj"
     image: "images/homepage/house_loser.png"
-    alt: "P1"
+    alt: "loser"
     content:
       - text: "Iako Google mnogima olakšava svakodnevni život, biznis model im je da ako je nešto besplatno onda su korisnički podaci proizvod."
       - text: "Dozvoljeni pristup slikama na običnom telefonu uključuje i pristup svakom fajlu na telefonu.
@@ -36,7 +36,7 @@ params:
   p2:
     heading: "Locki telefon"
     image: "images/homepage/house_winner.png"
-    alt: "P2"
+    alt: "winner"
     content:
       - text: "Korisnik dobija telefon bez Google sistema i aplikacija koje se mogu vratiti na telefon u stabilnoj sandbox 
               verziji ili upotrebom alternativnih privatnijih rešenja poput FDroid i Aurora store."
