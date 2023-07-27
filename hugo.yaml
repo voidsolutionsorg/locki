@@ -12,9 +12,11 @@ darkmode_js:
 enableInlineShortcodes: true
 
 params:
-  author: Tmina Org
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
+  author: "Tmina Org"
+  authorimage: "../assets/images/global/author.webp"
+  og_image: "/images/tailbliss-cover.png"
+  logo: "/images/homepage/site-logo.png"
+  alt: "logo"
   moto: "Zaključaj svoj digitalni život."
   description: "Manjak privatnosti znači manjak slobode. Ne dozvoli drugima da kontrolišu ono što je tvoje."
   disable_theme_toggle: false
@@ -22,6 +24,8 @@ params:
 
   p1:
     heading: "Prosečan mobilni uređaj"
+    image: "images/homepage/house_loser.png"
+    alt: "loser"
     content:
       - text: "Iako Google mnogima olakšava svakodnevni život, njihov način poslovanja jeste da se usluge plaćaju korisničkim podacima."
       - text: "Dozvoljeni pristup slikama na običnom telefonu uključuje i pristup svakom fajlu na telefonu.
@@ -33,6 +37,8 @@ params:
               što znači da je telefon nakon tog perioda potpuno nezaštićen od neželjenih napada"
   p2:
     heading: "Locki telefon"
+    image: "images/homepage/house_winner.png"
+    alt: "winner"
     content:
       - text: "Korisnik dobija telefon bez Google sistema i aplikacija koje se mogu vratiti na telefon u stabilnoj sandbox 
               verziji ili upotrebom alternativnih privatnijih rešenja poput FDroid i Aurora store."
