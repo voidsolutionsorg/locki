@@ -13,7 +13,7 @@ enableInlineShortcodes: true
 
 params:
   author: "Tmina Org"
-  authorimage: "../assets/images/global/author.webp"
+  authorimage: "/images/homepage/site-logo.svg"
   og_image: "/images/tailbliss-cover.png"
   logo: "/images/homepage/site-logo.svg"
   alt: "logo"
