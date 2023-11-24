@@ -19,11 +19,6 @@ Ovaj operativni sistem koji uz pažljivo odabrane, bezbedne, aplikacije i pametn
 
 Sistem se unapređuje svakih mesec dana što mu omogućava da bude korak ispred najmodernijih načina provale i krađe podataka 
 
-
-
-
-
-
 > Graphene je put kojim treba poći ukoliko cenite bezbednost i privatnost
 
 *Jedan od najvećih tehnoloških blogova - "Make Use Of"*

@@ -6,9 +6,12 @@ language: en
 description: aplikacije za dopisivanje
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
-Slanje poruka i pozivanje je suštinska svrha telefona ali danas ni to nije potpuno bezbedno. Većina aplikacija za dopisivanje čuva podatke na serverima, koji mogu biti hakovani a konverzacije otkrivene, takođe niko od nas nije siguran da se naše konverzacije ne prodaju u svrhu nekih istraživanja ili sakupljanja informacija.
+Slanje poruka i pozivanje je suštinska svrha telefona ali danas ni to nije potpuno bezbedno. Većina aplikacija za dopisivanje čuva podatke na serverima, koji mogu biti hakovani a konverzacije otkrivene, takođe niko od nas nije siguran da se naše konverzacije ne čuvaju.
 
-Ovo su neke naše preporuke šta je možda najbezbednije za dopisivanje.
+Ovo su naše preporuke šta je možda najbezbednije za dopisivanje.
+
+(mozda da pomenemo facebook fijasko)
+(da li da koristimo i tox, nasao sam svugde da je dobra stvar)
 
 ### 
 
