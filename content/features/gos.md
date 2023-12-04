@@ -32,3 +32,5 @@ Sistem se unapređuje svakih mesec dana što mu omogućava da bude korak ispred 
 >>> There is probably no more secure and private phone operating system in the world.
 
 *Naslovna strana članka "Graphene OS je praktično savršen" kompanije "aj-computing" (januar 2023) *
+
+Važno je naglasiti da deo profita ide u podržavanje i unapređivanje Graphene operativnog sistema.
