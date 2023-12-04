@@ -12,3 +12,4 @@ Problem privatnosti nastaje kad pogledamo u EXIF (Exchangeable Image File Format
 
 (da li GOS filtrira exif fajl ili samo ne cuva te podatle????)
 
+
