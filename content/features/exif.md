@@ -1,15 +1,11 @@
 ---
-title: "Podaci u fotografijama"
-date: 2021-12-18T11:10:36+08:00
-draft: false
-language: en
-description: O operativnom sistemu
+title: "EXIF podaci"
+description: Šta je EXIF i zašto je opasan
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
-U današnje vreme telefon ima mnogobrojne upotrebe od kojih je jedna od najvećih mogućnost fotografisanja, po poslednjim istraživanjima prosečan telefon u sebi ima oko 2000 fotografija a 92.5% svih fotografija napravljeno je telefonom.
 
-Problem privatnosti nastaje kad pogledamo u EXIF (Exchangeable Image File Format) fajl koji čuva "neophodne" podatke o fotografiji koje telefon obrađuje omogućavajući nam da sortiramo fotografije po mnogim filterima. Veliki deo podataka EXIF fajla, poput podesavanja kamere i modela telefona, su bezopasni po korisnike ali postoje i podaci kao što su datum, vreme i ono najgore geografske koordinate stvaranja fotografije.
+U današnje vreme telefoni imaju mnogobrojne upotrebe od kojih je jedna od najvećih mogućnost fotografisanja. Prema [poslednjim istraživanjima](https://example.org) prosečan telefon u sebi ima oko 2000 fotografija a 92.5% svih fotografija napravljeno je telefonom.
 
-(da li GOS filtrira exif fajl ili samo ne cuva te podatle????)
+Problem privatnosti nastaje kad pogledamo u EXIF (Exchangeable Image File Format) podatke koji sadrže "neophodne" informacije o fotografiji. Telefoni obrađuju EXIF podatke omogućavajući pregledanje fotografija po raznim filterima. Veliki deo podataka EXIF-a poput podesavanja kamere i modela telefona su bezopasni po korisnike ali postoje i podaci kao što su datum, vreme i geografske koordinate lokacije gde je fotografija napravljena.
 
-
+Kamera na Locki telefonu čuva sam minimum potrebnih EXIF podataka, konkretno rezoluciju i format slike. Ništa više!
