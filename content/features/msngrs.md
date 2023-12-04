@@ -21,10 +21,18 @@ Ovo su naše preporuke šta je možda najbezbednije za dopisivanje.
 
 ### Sesion
 
+Za kreiranje sesion naloga nije potrebno uneti broj telefona, email adresu niti bilo koji lični podatak koji može da poveže sesion nalog i fizičko lice. Jedino što je potrebno da se kreira sesion nalog je "sigurnosna fraza" tj. reč koju korisnik naloga koristi da vrati izgubljen nalog ili ga prebaci na drugi telefon.
+
+Sesion koristi lokinet što je posebna verzija tora napravljena samo za sesion. Svaki podatak poslat preko sesiona prolazi kroz tri mesta uz to da ni jedno mesto nema sve optrebne podatke o pošiljaocu, primaocu i poslatom sadržaju.
+
+Bitno je naglasiti da je sesion "open source" (kod čitavoj projekta je otvoren za javnost) što osigurava svakog korisnika da su sve izjave o privatnosti aplikacije potpuno tačne.
+
 ### Briar
 
-Briar se ne oslanja na skladištenje podataka u serverima već na direktnu komunikaciju između dva telefona pa tako krađu i nadgledanje razgovora postaje nemoguće.
+Briar se ne oslanja na skladištenje podataka u serverima već na direktnu komunikaciju između dva telefona (svaki poslat podatak se šuva samo na telefonu primaoca i pošiljaoca) pa tako krađa i nadgledanje poslatog materijala postaje nemoguće.
 
-Velika prednost ove aplikacije je što joj za rad nije potrebna internet konekcija već se telefoni međusobno mogu povezati wifi-jem ili čak bluetooth-om, tako stvarajući lanac povezanih uređaja.
+Velika prednost ove aplikacije je što joj za rad nije potrebna internet konekcija već se telefoni međusobno mogu povezati wifi-jem ili čak bluetooth-om.
+
+Jedna od nesvakidašnjih opcija u poređenju sa ostalim aplikacijama za slanje poruka je "panic button", ova opcija služi da korisnik pritiskom na dugme obriše sve podatke sa svog briara.
 
 ### Telegram
