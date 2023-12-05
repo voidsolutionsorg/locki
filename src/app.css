@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply min-h-screen text-slate-950 dark:text-slate-100 dark:bg-slate-900;
+}
+
+.navbar-button {
+    @apply text-lg hover:text-slate-500 mx-1;
+}
+
+.feature-p {
+    @apply text-lg mt-2;
+}
+
+.contact-p {
+    @apply text-base mt-2;
+}
+
+header, footer {
+    @apply text-slate-100 dark:text-slate-200;
+    @apply h-20 w-full;
+    @apply bg-slate-800 dark:bg-slate-900;
+}
+
+footer {
+    @apply sticky top-[100vh];
+    @apply flex items-center place-content-center;
+}
