@@ -11,7 +11,7 @@
 <article>
 	<header class="mb-4 bg-primary-600">
 		<span class="py-96">
-			<h1 class="pt-16 text-5xl font-black text-center text-white">
+			<h1 class="pt-16 text-5xl font-black text-center dark:text-white">
 				{title}
 			</h1>
 			{#if description !== ''}
