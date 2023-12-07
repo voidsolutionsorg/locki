@@ -1,7 +1,8 @@
 ---
-title: "Degoogled Google telefon"
+layout: features
+title: Degoogled telefon
 description: Smenjivanje Google servisa sa vrhovne vlasti telefona
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+featuredImage: /android-chrome-192x192.png
 ---
 
 Većina ljudi na svojim telefonima imaju aplikacije kao što su Google Play Store, Gmail i slično. Svaka od tih aplikacija je besplatna za upotrebu a kad je proizvod besplatan, korisnik postaje proizvod. Prihodi dolaze iz krađe podataka i prodaje zarad personalizovanih reklama.

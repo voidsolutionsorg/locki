@@ -9,7 +9,7 @@
 		'Iako Google mnogima olakšava svakodnevni život, njihov način poslovanja jeste da se usluge plaćaju korisničkim podacima.',
 		'Dozvoljeni pristup slikama na običnom telefonu uključuje i pristup svakom fajlu na telefonu. Većina aplikacija odbija da radi ukoliko korisnik svojeručno ne dozvoli aplikaciji pristup određenim periferijama (kamera, mikrofon, lokacija).',
 		'Svaka fotografija slikana običnim telefonom u podacima slike (picture metadata) sadrži sačuvanu rezoluciju, model telefona, tip kamere kao i tačne koorditane mesta na kom je fotografija nastala.',
-		'Prosečan telefon dobija softversku podršku od proizvođača u periodu od jedne do tri godine, što znači da je telefon nakon tog perioda potpuno nezaštićen od neželjenih napada.'
+		'Prosečan telefon dobija softversku podršku od proizvođača u periodu od 1 do 3 godine, što znači da je telefon nakon tog vremena potpuno nezaštićen od neželjenih napada.'
 	];
 </script>
 

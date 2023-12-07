@@ -1,10 +1,8 @@
 ---
-title: "Profili"
-date: 2021-12-18T11:10:36+08:00
-draft: false
-language: en
-description: About Us
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+layout: features
+title: Profili
+description: Odvajanje personalnih i poslovnih aplikacija
+featuredImage: /android-chrome-192x192.png
 ---
 
 Koliko god se mi trudili da se maksimalno zaštitimo na internetu, neophodno je naglasiti da nisu samo hakerski napadi ono čega treba da se plašimo. Za prosečnog korisnika najveći udar na

@@ -6,10 +6,10 @@
 
 	const title = 'Locki telefon';
 	const paragraphs = [
-		'Korisnik dobija telefon bez Google sistema i aplikacija koje se mogu vratiti na telefon u stabilnoj sandbox verziji ili upotrebom alternativnih rešenja poput FDroid i Aurora store.',
+		'Korisnik dobija telefon bez Google sistema i aplikacija koje se mogu vratiti na telefon u stabilnoj sandbox verziji ili zameniti alternativnim rešenjima poput FDroid i Aurora store.',
 		'Pored osnovnih nivoa dozvola Locki telefon pruža korisniku priliku da odabere tačan fajl / sliku / video kojem aplikacija može da pristupi. Ukoliko aplikacija odbija da radi bez pristupa određenim periferijama ili memoriji sistem kreira lažnu dozvolu aplikaciji tako da ona radi neometano bez stvarnog pristupa.',
-		'Fotografija slikana Locki telefonom u svojim podacima ima samo sopstvenu rezoluciju. Ukoliko korisnik želi da fotografija čuva sve invazivne podatke može uvek uključiti čuvanje tih podataka.',
-		'Locki telefon dobija podršku minimum 5 godina (7 godina za Pixel 8 i novije) od proizvodnje telefona od kojih su poslednje 2 godine podrške sigurnosnog sistema. Sigurnosna unapređenja dodaju se svakih mesec dana što znači da je sistem uvek korak ispred mogućih napadača.'
+		'Fotografija slikana Locki telefonom u svojim podacima ima samo sopstvenu rezoluciju. Ukoliko korisnik želi da fotografija čuva sve invazivne podatke može uvek uključiti čuvanje istih u opcijama kamere.',
+		'Locki telefon dobija podršku od minimum 5 godina od proizvodnje telefona, ili 7 godina u slučaju Pixel 8 i novijih modela. Poslednje 2 godine sadrže održavanje sigurnosnog sistema gde se unapređenja dodaju svakih mesec dana, što znači da je sistem uvek korak ispred mogućih napadača.'
 	];
 </script>
 
