@@ -3,15 +3,5 @@
 @tailwind utilities;
 
 body {
-    @apply min-h-screen text-slate-950 dark:text-slate-100 dark:bg-slate-900;
-}
-
-header, footer {
-    @apply h-20 w-full;
-    @apply bg-slate-400 dark:bg-slate-950;
-}
-
-footer {
-    @apply sticky top-[100vh];
-    @apply flex items-center place-content-center;
+    @apply bg-zinc-100 dark:bg-gray-800;
 }
