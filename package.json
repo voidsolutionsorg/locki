@@ -1,45 +1,37 @@
 {
-  "name": "TailBliss",
-  "version": "0.1.1",
-  "description": "Hugo + Alpine.js + TailwindCSS",
-  "main": "index.js",
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10",
-    "alpinejs": "^3.13.3",
-    "autoprefixer": "^10.4.16",
-    "concurrently": "^8.2.2",
-    "postcss": "^8.4.32",
-    "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.3.6"
-  },
-  "scripts": {
-    "start": "concurrently npm:watch:*",
-    "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
-    "watch:hugo": "hugo server",
-    "build": "hugo --minify",
-    "test": "hugo"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nusserstudios/tailbliss.git"
-  },
-  "keywords": [
-    "hugo",
-    "tailwind",
-    "tailwindcss",
-    "alpinejs",
-    "minimal",
-    "responsive",
-    "light mode",
-    "dark mode",
-    "hugo blog",
-    "categories",
-    "tags"
-  ],
-  "author": "NusserStudios",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/nusserstudios/tailbliss/issues"
-  },
-  "homepage": "https://github.com/nusserstudios/tailbliss"
+	"name": "locki",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node ./build/index.js",
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-vercel": "^3.1.0",
+		"@sveltejs/kit": "^1.27.7",
+		"@tailwindcss/typography": "^0.5.10",
+		"@typescript-eslint/eslint-plugin": "^6.13.2",
+		"@typescript-eslint/parser": "^6.13.2",
+		"autoprefixer": "^10.4.16",
+		"eslint": "^8.55.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.35.1",
+		"mdsvex": "^0.11.0",
+		"postcss": "^8.4.32",
+		"prettier": "^3.1.0",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.8",
+		"svelte-check": "^3.6.2",
+		"tailwindcss": "^3.3.6",
+		"tslib": "^2.6.2",
+		"typescript": "^5.3.3",
+		"vite": "^4.5.1"
+	},
+	"type": "module"
 }
