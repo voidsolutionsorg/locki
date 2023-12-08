@@ -1,4 +1,4 @@
-<footer class="mt-12 bg-gray-900">
+<footer class="sticky top-[100vh] mt-12 bg-gray-900">
 	<div
 		class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
 	>
@@ -7,7 +7,7 @@
                 <a href="#" class="text-base text-gray-400 hover:text-gray-300"> fOOTer </a>
             </div>
         </nav> -->
-		<div class="flex justify-center mt-8 space-x-6">
+		<div class="flex justify-center space-x-6">
 			<!-- <a href="#" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Facebook</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

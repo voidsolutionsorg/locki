@@ -5,12 +5,7 @@
 		title: string;
 		href: string;
 	};
-	export let links: Link[] = [
-		{
-			title: 'Mogućnosti',
-			href: '/features'
-		}
-	];
+	export let links: Link[] = [];
 </script>
 
 <div
