@@ -13,9 +13,9 @@
 	];
 </script>
 
-<div class="relative my-4">
+<div class="my-4 pt-4 sm:pt-6 md:pt-12 lg:pt-20">
 	<div
-		class="hidden lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8"
+		class="hidden lg:grid lg:mx-auto lg:max-w-7xl lg:grid-cols-2 lg:items-center lg:gap-24 lg:px-8"
 	>
 		<Image src={housethief} alt="House thief" />
 		<Text {title} {paragraphs} />
