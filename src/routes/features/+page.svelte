@@ -1,7 +1,5 @@
 <script lang="ts">
-	import Navbar from '$lib/components/Navbar.svelte';
 	import Features from '$lib/components/cards/Features.svelte';
-	import Title from '$lib/components/phones/Title.svelte';
 
 	type Post = {
 		url: string;
@@ -24,10 +22,12 @@
 		eager: true
 	});
 	const posts = Object.entries(modules).map((p) => convertToPost(p));
-	console.log(posts);
 </script>
 
-<Navbar />
+<svelte:head>
+	<title>Features | Locki</title>
+</svelte:head>
+
 <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50">
 	<div class="px-4 not-prose">
 		<div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
