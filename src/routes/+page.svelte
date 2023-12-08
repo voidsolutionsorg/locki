@@ -7,17 +7,10 @@
 	import CTA from '$lib/components/homepage/CTA.svelte';
 	import Blog from '$lib/components/homepage/Blog.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-
-	const links = [
-		{
-			title: 'Mogućnosti',
-			href: '/features'
-		}
-	];
 </script>
 
 <div class="contents">
-	<Navbar {links} />
+	<Navbar />
 	<Main />
 	<BasicPhone />
 	<AdvancedPhone />

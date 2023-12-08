@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Navbar from '../Navbar.svelte';
+
 	export let title = 'Locki';
 	export let description = '';
 	export let featuredImage = '';
@@ -7,6 +9,8 @@
 <svelte:head>
 	<title>{title}</title>
 </svelte:head>
+
+<Navbar />
 
 <article>
 	<header class="mb-4 bg-primary-600">
