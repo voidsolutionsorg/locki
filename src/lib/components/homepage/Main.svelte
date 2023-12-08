@@ -14,6 +14,7 @@
 					src={logo}
 					alt="Locki logo small"
 					class="w-full max-w-xl mx-auto rounded-lg max-h-60"
+					loading="lazy"
 				/>
 			</div>
 			<div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
@@ -32,7 +33,12 @@
 				</p>
 			</div>
 			<div class="hidden lg:block col-span-6">
-				<img src={logo} alt="Locki logo" class="w-full max-w-xl mx-auto rounded-lg" />
+				<img
+					src={logo}
+					alt="Locki logo large"
+					class="w-full max-w-xl mx-auto rounded-lg"
+					loading="lazy"
+				/>
 			</div>
 		</div>
 	</div>
