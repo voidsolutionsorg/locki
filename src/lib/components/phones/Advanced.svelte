@@ -1,5 +1,5 @@
 <script lang="ts">
-	import housezap from '$lib/assets/img/housezap.png';
+	import housezap from '$lib/assets/img/housezap.png?as=run';
 	import Title from './Title.svelte';
 	import Text from './Text.svelte';
 	import Image from './Image.svelte';
@@ -18,11 +18,11 @@
 		class="hidden lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8"
 	>
 		<Text {title} {paragraphs} />
-		<Image imageSrc={housezap} />
+		<Image src={housezap} alt="House zap" />
 	</div>
 	<div class="lg:hidden">
 		<Title {title} />
-		<Image imageSrc={housezap} />
+		<Image src={housezap} alt="House zap" />
 		<Text {paragraphs} />
 	</div>
 </div>

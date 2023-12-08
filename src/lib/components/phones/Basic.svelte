@@ -1,5 +1,5 @@
 <script lang="ts">
-	import housethief from '$lib/assets/img/housethief.png';
+	import housethief from '$lib/assets/img/housethief.png?as=run';
 	import Title from './Title.svelte';
 	import Text from './Text.svelte';
 	import Image from './Image.svelte';
@@ -17,12 +17,12 @@
 	<div
 		class="hidden lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8"
 	>
-		<Image imageSrc={housethief} />
+		<Image src={housethief} alt="House thief" />
 		<Text {title} {paragraphs} />
 	</div>
 	<div class="lg:hidden">
 		<Title {title} />
-		<Image imageSrc={housethief} />
+		<Image src={housethief} alt="House thief" />
 		<Text {paragraphs} />
 	</div>
 </div>
