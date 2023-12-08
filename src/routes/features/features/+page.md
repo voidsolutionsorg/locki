@@ -1,7 +1,7 @@
 ---
 layout: features
 title: Ostale mogućnosti
-description: ''
+description: 'Mešanje tastature'
 featuredImage: /android-chrome-192x192.png
 ---
 
