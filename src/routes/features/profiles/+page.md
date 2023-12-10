@@ -2,7 +2,7 @@
 layout: features
 title: Profili
 description: Profil 1, Profil 2, Profil Tinder, Profil Politika
-featuredImage: /android-chrome-192x192.png
+featuredImage: /favicon.svg
 ---
 
 Koliko god se trudili da budemo zaštićeni na internetu, neophodno je naglasiti da nisu samo hakerski napadi ono čega treba da se plašimo. Za prosečnog korisnika najveći udar na privatnost vrše svakodnevne aplikacije koje za cilj imaju da skupe što više podataka o korisniku kako bi kasnije te podatke iskoristili za sopstvene svrhe. Od nekih možemo da se zaštitimo tako što jednostavno koristimo drugu, mnogo bezbedniju, alternativu ali šta ako to nije opcija? Tu nastupaju profili na samom uređaju.

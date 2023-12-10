@@ -2,7 +2,7 @@
 layout: features
 title: Hardened malloc
 description: Alo mali, budi jači
-featuredImage: /android-chrome-192x192.png
+featuredImage: /favicon.svg
 ---
 
 Hardened Malloc

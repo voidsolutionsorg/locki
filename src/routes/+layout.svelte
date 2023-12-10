@@ -11,8 +11,6 @@
 	];
 </script>
 
-<div class="contents">
-	<Header {links} />
-	<slot />
-	<Footer />
-</div>
+<Header {links} />
+<slot />
+<Footer />

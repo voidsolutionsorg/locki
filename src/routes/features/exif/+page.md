@@ -2,7 +2,7 @@
 layout: features
 title: EXIF podaci
 description: Šta su i zašto su opasni
-featuredImage: /android-chrome-192x192.png
+featuredImage: /favicon.svg
 ---
 
 U današnje vreme telefoni imaju mnogobrojne upotrebe od kojih je jedna od najvećih mogućnost fotografisanja. Prema poslednjim istraživanjima prosečan telefon u sebi ima oko 2000 fotografija a 92.5% svih fotografija napravljeno je telefonom.

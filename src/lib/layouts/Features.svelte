@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let title = 'Locki';
+	export let title = '';
 	export let description = '';
 	export let featuredImage = '';
 </script>
@@ -26,14 +26,14 @@
 			<div class="px-6">
 				<img
 					src={featuredImage}
-					class="mx-auto object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
+					class="max-h-80 mx-auto object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
 					alt={title}
 				/>
 			</div>
 		</div>
 	{/if}
 	<div
-		class="prose-xl dark:prose-invert text-justify max-w-2xl px-6 pt-6 pb-16 mx-auto dark:text-white"
+		class="prose-xl dark:prose-invert prose-a:text-blue-800 dark:prose-a:text-blue-200 hover:prose-a:underline sm:text-justify max-w-2xl px-6 pt-6 pb-16 mx-auto dark:text-white"
 	>
 		<slot />
 	</div>

@@ -11,7 +11,7 @@
 	{/if}
 	<div class="lg:mt-6 space-y-6 text-gray-900 dark:text-white">
 		{#each paragraphs as paragraph}
-			<p class="text-justify text-lg text-gray-900 dark:text-white">
+			<p class="sm:text-justify text-lg text-gray-900 dark:text-white">
 				{paragraph}
 			</p>
 		{/each}
