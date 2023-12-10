@@ -2,7 +2,7 @@
 layout: features
 title: Ostale mogućnosti
 description: ''
-featuredImage: /android-chrome-192x192.png
+featuredImage: /favicon.svg
 ---
 
 ## Mešanje tastature za PIN kod

@@ -2,7 +2,7 @@
 layout: features
 title: WiFi & Bluetooth skeniranje
 description: Triangulacija lokacije, bez lokacije
-featuredImage: /android-chrome-192x192.png
+featuredImage: /favicon.svg
 ---
 
 Mnogi od nas su nekad slučajno ili namerno uključili lokaciju na svojim telefonima i dobili notifikaciju o tome gde smo bili i šta smo radili. Istina je da nam lokacija na telefonu često treba (recimo kad koristimo navigaciju za putovanje) ali potrebno je naglasiti da je imati javnu lokaciju veoma opasno.

@@ -2,7 +2,7 @@
 layout: features
 title: Aplikacije za dopisivanje
 description: Messengers koji koriste E2E enkripciju i nemaju pristup sadžaju poruka
-featuredImage: /android-chrome-192x192.png
+featuredImage: /favicon.svg
 ---
 
 ## Uvod

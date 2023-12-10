@@ -2,7 +2,7 @@
 layout: features
 title: Graphene OS
 description: Karakteristike operativnog sistema
-featuredImage: /android-chrome-192x192.png
+featuredImage: /favicon.svg
 ---
 
 Graphene OS je operativni sistem stvoren 2014, sa ciljem da korisnicima obezbedi maksimalnu moguću bezbednost i privatnost na pametnim telefonima.

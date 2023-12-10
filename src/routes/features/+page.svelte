@@ -7,20 +7,25 @@
 		description: string;
 		featuredImage: string;
 	};
-	function convertToPost(p: [string, any]) {
+	async function convertToPost(p: [string, () => Promise<any>]) {
+		const url = p[0];
+		const obj = await p[1]();
 		const post: Post = {
-			url: '/features' + p[0].slice(1, p[0].length - 9),
-			title: p[1]['title'],
-			description: p[1]['description'],
-			featuredImage: p[1]['featuredImage']
+			url: '/features' + url.slice(1, url.length - 9),
+			title: obj['title'],
+			description: obj['description'],
+			featuredImage: obj['featuredImage']
 		};
 		return post;
 	}
 
-	const modules: Record<string, any> = import.meta.glob('./**/*.{svelte.md,md,svx}', {
-		import: 'metadata',
-		eager: true
-	});
+	const modules: Record<string, () => Promise<any>> = import.meta.glob(
+		'./**/*.{svelte.md,md,svx}',
+		{
+			import: 'metadata',
+			eager: false
+		}
+	);
 	const posts = Object.entries(modules).map((p) => convertToPost(p));
 </script>
 
@@ -32,12 +37,16 @@
 	<div class="px-4 not-prose">
 		<div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
 			{#each posts as post}
-				<Features
-					url={post.url}
-					title={post.title}
-					description={post.description}
-					featuredImage={post.featuredImage}
-				/>
+				{#await post}
+					<Features />
+				{:then post}
+					<Features
+						url={post.url}
+						title={post.title}
+						description={post.description}
+						featuredImage={post.featuredImage}
+					/>
+				{/await}
 			{/each}
 		</div>
 	</div>
