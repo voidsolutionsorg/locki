@@ -6,7 +6,7 @@
 		'Manjak privatnosti znači manjak slobode. Ne dozvoli drugima da kontrolišu ono što je tvoje.';
 </script>
 
-<div class="bg-gray-200 dark:bg-gray-900 h-screen">
+<div class="bg-gray-200 dark:bg-gray-900">
 	<div class="max-w-screen-xl px-4 py-8 mx-auto">
 		<div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
 			<div class="lg:hidden col-span-6">
@@ -14,7 +14,7 @@
 					src={logo}
 					alt="Locki logo small"
 					class="w-full max-w-xl mx-auto rounded-lg max-h-60"
-					loading="lazy"
+					loading="eager"
 				/>
 			</div>
 			<div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
