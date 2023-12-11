@@ -9,9 +9,13 @@ featuredImage: /android-chrome-192x192.png
 
 Slanje poruka i pozivanje je suštinska svrha telefona ali danas ni to nije potpuno bezbedno. Većina aplikacija za dopisivanje čuva podatke na serverima, koji mogu biti hakovani a konverzacije otkrivene, takođe niko ne može biti siguran da se konverzacije ne prisluškivaju i podaci ne zloupotrebljivaju.
 
-## Tox
-
 ## Signal
+
+za kreiranje naloga treba ti broj fona 
+
+ok je za pricu sa ljudima koje znas i koji te znaju 
+
+mega safe enkripcija
 
 ## Silence
 
@@ -30,5 +34,3 @@ Briar se ne oslanja na skladištenje podataka u serverima već na direktnu komun
 Velika prednost ove aplikacije je što joj za rad nije potrebna internet konekcija već se telefoni međusobno mogu povezati sa WiFi Direct ili čak Bluetooth.
 
 Jedna od nesvakidašnjih opcija u poređenju sa ostalim aplikacijama za slanje poruka je "panic button", ova opcija služi da korisnik pritiskom na dugme obriše sve podatke sa Briar aplikacije.
-
-## Telegram
