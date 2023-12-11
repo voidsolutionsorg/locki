@@ -7,14 +7,10 @@ featuredImage: /favicon.svg
 
 # Uvod
 
-# Messenger
-[Messenger](https://www.messenger.com/) je...
+# [Messenger](https://www.messenger.com/)
 
-# Viber
-[Viber](https://www.viber.com) je...
+# [Viber](https://www.viber.com)
 
-# Whatsapp
-[Whatsapp](https://www.whatsapp.com/) je...
+# [Whatsapp](https://www.whatsapp.com/)
 
-# Telegram
-[Telegram](https://telegram.org/) je...
+# [Telegram](https://telegram.org/)

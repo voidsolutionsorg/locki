@@ -7,35 +7,19 @@ featuredImage: /favicon.svg
 
 # Uvod
 
-Slanje poruka i pozivanje je suštinska svrha telefona ali danas ni to nije potpuno bezbedno. Većina aplikacija za dopisivanje čuva podatke na serverima, koji mogu biti hakovani a konverzacije otkrivene, takođe niko ne može biti siguran da se konverzacije ne prisluskivaju i podaci ne zloupotrebljivaju.
+Slanje poruka je jedna od glavnih uloga telefona, nažalost danas je veoma teško bezbedno i privatno poslati poruku. Ovo su aplikacije otvorenog izvornog koda, koje koriste algoritme za šifrovanje poruka i štite korisnike od nepoželjnih očiju.
 
-Slanje poruka je jedna od glavnih uloga telefona, nažalost danas je to jedna od najnebezbednijih 
+# [Signal](https://www.signal.org/)
 
-# Signal
-[Signal](https://www.signal.org/) je jedna od poznatijih, sigurnih aplikacija za dopisivanje, stvorena 2013 
+Signal je jedna od poznatijih, sigurnih aplikacija za dopisivanje, stvorena 2013 
 
 Jedina mana za privatnost pripisuje se tome da je svaki nalog povezan sa brojem telefona što znači da se lako može otkriti privatni identitet iza nečijeg naloga, drugačije rečeno, poruke i pozivi su privatni ali identitet nije.
 
-Signal preporučujemo za razgovore sa ljudima koji vas poznaju
+Signal preporučujemo za upotrebu kad nemate problem sa manjkom anonimnosti (razgovarate sa ljudima koji vas poznaju), najlakša je za upotrebu i privikavanje.
 
-za kreiranje naloga treba ti broj fona
-ok je za pricu sa ljudima koje znas i koji te znaju
-mega safe enkripcija
 
-# Session
-[Session](https://getsession.org/) je...
 
-# Briar
-[Briar](https://briarproject.org/) je...
-
-Briar se ne oslanja na skladištenje podataka u serverima već na direktnu komunikaciju između dva telefona (svaki poslat podatak se čuva samo na telefonu primaoca i pošiljaoca) pa tako krađa i nadgledanje poslatog materijala postaje nemoguće.
-
-Velika prednost ove aplikacije je što joj za rad nije potrebna internet konekcija već se telefoni međusobno mogu povezati sa WiFi Direct ili čak Bluetooth.
-
-Jedna od nesvakidašnjih opcija u poređenju sa ostalim aplikacijama za slanje poruka je "panic button", ova opcija služi da korisnik pritiskom na dugme obriše sve podatke sa Briar aplikacije.
-
-# Silence
-[Silence](https://silence.im/) je...
+# [Session](https://getsession.org/)
 
 Za kreiranje Session naloga nije potrebno uneti broj telefona, email adresu niti bilo koji lični podatak koji može da poveže nalog i fizičko lice. Jedino što je potrebno da se kreira nalog jeste "sigurnosna fraza" tj. reč koju korisnik naloga koristi da vrati izgubljen nalog ili ga prebaci na drugi telefon.
 
@@ -43,3 +27,23 @@ Session koristi "lokinet" što je decentralizovan "internet unutar interneta" na
 
 Bitno je naglasiti da je Session [otvorenog izvora i proveren](https://blog.quarkslab.com/resources/2021-05-04_audit-of-session-secure-messaging-application/20-08-Oxen-REP-v1.4.pdf) što osigurava svakom korisniku da su izjave o privatnosti aplikacije korektne.
 
+
+
+# [Briar](https://briarproject.org/)
+
+Briar se ne oslanja na skladištenje podataka u serverima već na direktnu komunikaciju između dva telefona (svaki poslat podatak se čuva samo na telefonu primaoca i pošiljaoca) pa tako krađa i nadgledanje poslatog materijala postaje nemoguće.
+
+Velika prednost ove aplikacije je što joj za rad nije potrebna internet konekcija već se telefoni međusobno mogu povezati sa WiFi Direct ili čak Bluetooth.
+
+Jedna od nesvakidašnjih opcija u poređenju sa ostalim aplikacijama za slanje poruka je "panic button", ova opcija služi da korisnik pritiskom na dugme obriše sve podatke sa Briar aplikacije.
+
+Nudi korisnicima maksimalnu bezbednost, sigurnost i anonimnost ali po cenu komfora pošto je briar dosta neoblikovan kad je reč o lepoti upotrebe.
+
+# [Silence](https://silence.im/)
+
+Silence je aplikacija koja vrši šifrovanje SMS poruka signalovim protokolom.
+
+Velika mana ove aplikacije je što se oslanja na SMS poruke (najnebezbedniji način za slanje poruka) ali to joj je i najveća prednost pošto smo ponekad primorani da koristimo SMS poruke (na mestu smo na kom je signal previše loš za slanje poruka preko interneta).
+
+Preporučeno kao poslednja opcija ukoliko ste primorani da koristite SMS poruke, da makar niko ne može da vidi šta pišete.
+ 
