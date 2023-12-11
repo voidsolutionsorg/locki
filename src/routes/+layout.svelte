@@ -7,6 +7,10 @@
 		{
 			title: 'Mogućnosti',
 			href: '/features'
+		},
+		{
+			title: 'Blog',
+			href: '/blog'
 		}
 	];
 </script>

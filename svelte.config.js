@@ -13,6 +13,7 @@ const config = {
 		mdsvex({
 			extensions: ['.svelte.md', '.md', '.svx'],
 			layout: {
+				blog: './src/lib/layouts/Blog.svelte',
 				features: './src/lib/layouts/Features.svelte'
 			}
 		})
