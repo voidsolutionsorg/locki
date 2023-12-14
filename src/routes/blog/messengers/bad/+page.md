@@ -17,16 +17,21 @@ Iako na messengeru postoji opcija za šifrovanje poruka, ona nije fabrički uklj
 
 Zaključak je da je messenger platforma već upitnog kredibiliteta koja ima mogućnost da u svakom momentu dešifruje poruke korisnika i iskoristi ih po sopstvenom nahođenju.
 
+Ukoliko pak nismo uspeli da Vas uverimo da će messenger iskoristiti svaku priliku da izda svoje korisnike, pogledajte [ovaj članak](https://www.vice.com/en/article/n7zevd/this-is-the-data-facebook-gave-police-to-prosecute-a-teenager-for-abortion) o tome kako su poslali policiji privatne poruke korisnika čim su ovi to zatražili.
+
 # [Viber](https://www.viber.com)
 
 Šta god iko govorio o bezbednosti, činjenica je da svaka aplikacija koja nema javan i proveren izvorni kod nije bezbedna. Svi mogu da pričaju kako šifruju poruke i ne čuvaju ih ali ne postoji način da se to dokaže i samim tim se rađa sumnja da se nešto krije iza kulisa. Pošto viber nema javan izvorni kod ne može se reći da je bezbedna aplikacija, čak naprotiv da nemaju šta da kriju, objavili bi izvorni kod.
 
 # [Whatsapp](https://www.whatsapp.com/)
 
+Whatsapp koristi signalov protokol za šifrovanje poruka i kod aplikacije je otvorenog tipa, na prvi pogled bi se reklo da je fantastičan izbor za privatno dopisivanje, no to je samo zavesa.
+
+Svaka poruka poslata preko whatsappa ide do servera gde se šifruje po signalovom protokolu i tako šifrovana ide do adrese primaoca, veoma privatno! Postoji samo jedan mali problem a to je da kopije izvorne poruke ide na drugi server gde se čuva u svom nešifrovanom obliku, samim tim se gubi bilo kakva poenta šifrovanja i svaka poruka je javna whatsapp serverima.
+
 Kao i u slučaju vibera, izvorni kod whatsappa je privatan (tajan), iako oni tvrde da koriste protokol za šifrovanje i da su poruke bezbedne, ne postoji način da se to dokaže.
 
 # [Telegram](https://telegram.org/)
 
-Telegram koristi signalov protokol za šifrovanje poruka i kod aplikacije je otvorenog tipa, na prvi pogled bi se reklo da je fantastičan izbor za privatno dopisivanje, no to je samo zavesa.
+Za razliku od do sad pomenutih aplikacija, izvorni kod telegrama je otvoren
 
-Svaka poruka poslata preko telegrama ide do servera gde se šifruje po signalovom protokolu i tako šifrovana ide do adrese primaoca, veoma privatno! Postoji samo jedan mali problem a to je da kopije izvorne poruke ide na drugi server gde se čuva u svom nešifrovanom obliku, samim tim se gubi bilo kakva poenta šifrovanja i svaka poruka je javna telegram serverima.

@@ -13,12 +13,9 @@ Slanje poruka je jedna od glavnih uloga telefona, nažalost danas je veoma tešk
 
 Signal je jedna od poznatijih, sigurnih aplikacija za dopisivanje, stvorena 2013 
 
-Jedina mana za privatnost pripisuje se tome da je svaki nalog povezan sa brojem telefona što znači da se lako može otkriti privatni identitet iza nečijeg naloga, drugačije rečeno, poruke i pozivi su privatni ali identitet nije.
+Jedina mana pripisuje se tome da je svaki nalog povezan sa brojem telefona što znači da se lako može otkriti privatni identitet iza nečijeg naloga, drugačije rečeno, poruke i pozivi su privatni ali ne i anonimni.
 
-Signal preporučujemo za upotrebu kad nemate problem sa manjkom anonimnosti (razgovarate sa ljudima koji vas poznaju), najlakša je za upotrebu i privikavanje.
-
-
-
+Signal preporučujemo za upotrebu kad nemate problem sa manjkom anonimnosti (razgovarate sa ljudima koji vas poznaju), aplikacija je najsličnija većini modernih aplikacija za dopisivanje pa je zato najlakša za upotrebu i privikavanje.
 # [Session](https://getsession.org/)
 
 Za kreiranje Session naloga nije potrebno uneti broj telefona, email adresu niti bilo koji lični podatak koji može da poveže nalog i fizičko lice. Jedino što je potrebno da se kreira nalog jeste "sigurnosna fraza" tj. reč koju korisnik naloga koristi da vrati izgubljen nalog ili ga prebaci na drugi telefon.
@@ -27,7 +24,7 @@ Session koristi "lokinet" što je decentralizovan "internet unutar interneta" na
 
 Bitno je naglasiti da je Session [otvorenog izvora i proveren](https://blog.quarkslab.com/resources/2021-05-04_audit-of-session-secure-messaging-application/20-08-Oxen-REP-v1.4.pdf) što osigurava svakom korisniku da su izjave o privatnosti aplikacije korektne.
 
-
+Session je već privatan i anonimas, mada malo komplikovaniji za privikavanje, preporučujemo upotrebu kad želite potpunu privatnost i anonimnost na internetu.
 
 # [Briar](https://briarproject.org/)
 
@@ -37,7 +34,9 @@ Velika prednost ove aplikacije je što joj za rad nije potrebna internet konekci
 
 Jedna od nesvakidašnjih opcija u poređenju sa ostalim aplikacijama za slanje poruka je "panic button", ova opcija služi da korisnik pritiskom na dugme obriše sve podatke sa Briar aplikacije.
 
-Nudi korisnicima maksimalnu bezbednost, sigurnost i anonimnost ali po cenu komfora pošto je briar dosta neoblikovan kad je reč o lepoti upotrebe.
+Nudi korisnicima maksimalnu bezbednost, sigurnost i anonimnost ali po cenu komfora, kako bi poruka stigla do primaoca, oba uređaja moraju imati uključenu aplikaciju makar u pozadini (crpi bateriju) ili se dopisivati u dogovoreno vreme.
+
+Ovo je već teška artiljerija, praktično nemoguće za ometanje kontakta i narušavanje privatnosti, preporučujemo upotrebu samo kad želite da budete sigurni da ništa ne može da stane na put komunikaciji sa drugom osobom.
 
 # [Silence](https://silence.im/)
 
