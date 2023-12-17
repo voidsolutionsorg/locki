@@ -1,10 +1,8 @@
 ---
 layout: blog
-title: Preporučene aplikacije za dopisivanje
+title: naslov
 description: |
-  Privatnost znači da su tvoji podaci samo tvoji.
-  Anonimnost znači da je tvoj online identitet odvojen od realnog.
-  Sigurnost znači da možeš verovati u prve dve tvrdnje.
+  deskripcija
 featuredImage: /favicon.svg
 ---
 
