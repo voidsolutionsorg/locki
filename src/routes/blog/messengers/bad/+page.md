@@ -1,37 +1,49 @@
 ---
 layout: blog
 title: Loše aplikacije za dopisivanje
-description: Messenger, Viber, Whatapp, Telegram
+description: |
+  Oj aplikacijo, pitoma ružice,
+  kad si rasla, na šta si gledala?
+
+  Il' si rasla biti privatna,
+  il' na ideju da si anonimna,
+  il' na korist svojih korisnika?
+
+  Oj korisniče, moje bedno vlasništvo,
+  nit' sam rasla biti privatna,
+  nit' na ideju da sam anonimna,
+  nit' na tvoju korist,
+
+  već sam, mlada, prema $$$ rasla!
 featuredImage: /favicon.svg
 ---
 
 # Uvod
 
-Neke aplikacije za dopisivanje su javno nebezbedne, neke nemaju kompletno šifrovanje, neke koriste dok neke otvoreno češljaju poruke korisnika kako bi se uverili da su po njihovim propisima, o takvim aplikacijama ne vredi ni pisati. Problem nastaje kad za aplikaciju vlada glas da je privatna i bezbedna a zapravo nije.
+Neke aplikacije za dopisivanje su jasno nebezbedne (npr. SMS, Email), neke nemaju šifrovanje _od kraja do kraja_ ([e2ee](https://en.wikipedia.org/wiki/End-to-end_encryption)), dok neke otvoreno češljaju poruke korisnika kako bi se uverile da su po njihovim propisima... Problem nastaje kad opšta javnost smatra aplikaciju bezbednom za upotrebu dok ona zapravo ne poštuje korisničku privatnost.
 
 # [Messenger](https://www.messenger.com/)
 
-Messenger je platforma za dopisivanje stvorena od strane kompanije meta prethodno poznata kao Facebook, da, onaj Facebook sto je bio na sudu jer gleda privatne poruke... 
+Iako na Messenger-u postoji opcija za šifrovanje poruka, ona nije uvek uključena već se očekuje od korisnika da zna da ta opcija postoji i kako da je aktivira. Nažalost, kako god opisali taj vid šifrovanja nemoguće je biti siguran da li je to stvarno ispoštovano ili Meta ima pristup svakoj poruci.
 
-Iako na messengeru postoji opcija za šifrovanje poruka, ona nije fabrički uključena već se očekuje od korisnika da zna da ta opcija postoji i kako da je aktivira. Naravno ne treba se zanemariti da to njihovo šifrovanje funkcioniše tako da se poruke šifruju po ključu koji facebook zna (shvatite to kao ostavljanje stvari u hotelskoj sobi, vrata su zaključana ali hotel ima rezervni ključ).
+Facebook je već [upitnog kredibiliteta](https://www.vice.com/en/article/n7zevd/this-is-the-data-facebook-gave-police-to-prosecute-a-teenager-for-abortion) i godinama se pokazao kao platforma koja nema interese korisnika kao svoj cilj, a samim tim i svaka nova aplikacija koju Meta otkupi potpada pod to pravilo (Instagram, WhatsApp).
 
-Zaključak je da je messenger platforma već upitnog kredibiliteta koja ima mogućnost da u svakom momentu dešifruje poruke korisnika i iskoristi ih po sopstvenom nahođenju.
+# [Viber](https://www.viber.com/)
 
-Ukoliko pak nismo uspeli da Vas uverimo da će messenger iskoristiti svaku priliku da izda svoje korisnike, pogledajte [ovaj članak](https://www.vice.com/en/article/n7zevd/this-is-the-data-facebook-gave-police-to-prosecute-a-teenager-for-abortion) o tome kako su poslali policiji privatne poruke korisnika čim su ovi to zatražili.
+Viber, za razliku od drugih, nije imao incidente gde otvoreno prodaje i zloupotrebljava korisničke podatke, ali kada su bili pitani da li šifruju poruke i na koji način odgovor je bio "Nešto slično Signalu, ali ne možemo pokazati tačno šta niti kako".
 
-# [Viber](https://www.viber.com)
+Koliko god želeli da verujemo nekome, ako evidentno skrivaju algoritme šifrovanja (a pogotovo što nisu ništa revolucionarni) moramo postaviti pitanje da li se uopšte isplati koristiti takve aplikacije.
 
-Šta god iko govorio o bezbednosti, činjenica je da svaka aplikacija koja nema javan i proveren izvorni kod nije bezbedna. Svi mogu da pričaju kako šifruju poruke i ne čuvaju ih ali ne postoji način da se to dokaže i samim tim se rađa sumnja da se nešto krije iza kulisa. Pošto viber nema javan izvorni kod ne može se reći da je bezbedna aplikacija, čak naprotiv da nemaju šta da kriju, objavili bi izvorni kod.
+# [WhatsApp](https://www.whatsapp.com/)
 
-# [Whatsapp](https://www.whatsapp.com/)
-
-Whatsapp koristi signalov protokol za šifrovanje poruka i kod aplikacije je otvorenog tipa, na prvi pogled bi se reklo da je fantastičan izbor za privatno dopisivanje, no to je samo zavesa.
-
-Svaka poruka poslata preko whatsappa ide do servera gde se šifruje po signalovom protokolu i tako šifrovana ide do adrese primaoca, veoma privatno! Postoji samo jedan mali problem a to je da kopije izvorne poruke ide na drugi server gde se čuva u svom nešifrovanom obliku, samim tim se gubi bilo kakva poenta šifrovanja i svaka poruka je javna whatsapp serverima.
-
-Kao i u slučaju vibera, izvorni kod whatsappa je privatan (tajan), iako oni tvrde da koriste protokol za šifrovanje i da su poruke bezbedne, ne postoji način da se to dokaže.
+WhatsApp je zapravo jedina aplikacija kompanije Meta koja neironično koristi Signal-ov protocol za šifrovanje poruka _od kraja do kraja_. Iako se to ne može tačno proveriti, jer kôd aplikacije nije otvoren, postoji drugi problem... Čak i da je slanje poruka između dva člana apsolutno privatno, prilikom slanja poruke nekoj osobi ta ista poruka se šalje i WhatsApp serveru radi provere za ilegalne aktivnosti. Naime, ovo je nedavno dodato _unapređenje_ koje služi da "zaštiti decu", ali zato apsolutno narušava čitavu svrhu iza šifrovanja.
 
 # [Telegram](https://telegram.org/)
 
-Za razliku od do sad pomenutih aplikacija, izvorni kod telegrama je otvoren
+Za razliku od pomenutih aplikacija, izvorni kôd Telegram-a je otvoren i proveren za tačne tvrdnje o privatnosti. Uprkos tome, šifrovanje _od kraja do kraja_ je fabrički isključeno i radi **_samo prilikom dopisivanja 1 na 1_**, dok u grupama (nezavisno od veličine) ne postoji takvo šifrovanje.
 
+Izlaganjem sebe kao _privatnom_ alternativom za popularne aplikacije za dopisivanje dok zaista nije mnogo drugačija od njih je veoma zabrinjavajuća okolnost.
+
+# Zaključak
+
+Veoma je važno samostalno istražiti i uveriti se u bezbednost, privatnost i anonimnost aplikacija koje koristimo. Za preporučene aplikacije za dopisivanje [kliknite ovde](/blog/messengers/good)
