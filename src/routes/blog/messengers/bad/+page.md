@@ -20,7 +20,7 @@ featuredImage: /favicon.svg
 
 # Uvod
 
-Neke aplikacije za dopisivanje su jasno nebezbedne (npr. SMS, Email), neke nemaju šifrovanje _od kraja do kraja_ ([e2ee](https://en.wikipedia.org/wiki/End-to-end_encryption)), dok neke otvoreno češljaju poruke korisnika kako bi se uverile da su po njihovim propisima... Problem nastaje kad opšta javnost smatra aplikaciju bezbednom za upotrebu dok ona zapravo ne poštuje korisničku privatnost.
+Neke aplikacije za dopisivanje su jasno nebezbedne (npr. SMS i Email), neke nemaju šifrovanje _od kraja do kraja_ ([e2ee](https://en.wikipedia.org/wiki/End-to-end_encryption)), dok neke otvoreno češljaju poruke korisnika kako bi se uverile da su po njihovim propisima... Problem nastaje kad opšta javnost smatra da je aplikacija bezbednom za upotrebu dok ona zapravo ne poštuje korisničku privatnost.
 
 # [Messenger](https://www.messenger.com/)
 
@@ -30,9 +30,9 @@ Facebook je već [upitnog kredibiliteta](https://www.vice.com/en/article/n7zevd/
 
 # [Viber](https://www.viber.com/)
 
-Viber, za razliku od drugih, nije imao incidente gde otvoreno prodaje i zloupotrebljava korisničke podatke, ali kada su bili pitani da li šifruju poruke i na koji način odgovor je bio "Nešto slično Signalu, ali ne možemo pokazati tačno šta niti kako".
+Viber, za razliku od drugih, nije imao incidente gde otvoreno prodaje i zloupotrebljava korisničke podatke, ali kada su pitani šifruju li poruke i na koji način odgovor je bio "Nešto slično Signalu, ali ne možemo pokazati tačno šta niti kako".
 
-Koliko god želeli da verujemo nekome, ako evidentno skrivaju algoritme šifrovanja (a pogotovo što nisu ništa revolucionarni) moramo postaviti pitanje da li se uopšte isplati koristiti takve aplikacije.
+Koliko god želeli da verujemo nekome, ako evidentno skrivaju algoritme šifrovanja (pogotovo što ti algoritmi nisu revolucionarni) moramo postaviti pitanje da li se uopšte isplati koristiti takve aplikacije.
 
 # [WhatsApp](https://www.whatsapp.com/)
 
@@ -42,7 +42,7 @@ WhatsApp je zapravo jedina aplikacija kompanije Meta koja neironično koristi Si
 
 Za razliku od pomenutih aplikacija, izvorni kôd Telegram-a je otvoren i proveren za tačne tvrdnje o privatnosti. Uprkos tome, šifrovanje _od kraja do kraja_ je fabrički isključeno i radi **_samo prilikom dopisivanja 1 na 1_**, dok u grupama (nezavisno od veličine) ne postoji takvo šifrovanje.
 
-Izlaganjem sebe kao _privatnom_ alternativom za popularne aplikacije za dopisivanje dok zaista nije mnogo drugačija od njih je veoma zabrinjavajuća okolnost.
+Reklamiranje sebe kao _privatnu_ alternativu za popularne aplikacije za dopisivanje dok zaista nije mnogo drugačija od njih je veoma zabrinjavajuća okolnost.
 
 # Zaključak
 

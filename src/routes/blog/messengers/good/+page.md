@@ -44,4 +44,4 @@ Ovo je već teška artiljerija, praktično nemoguće za ometanje kontakta i naru
 
 Silence je aplikacija koja vrši šifrovanje SMS poruka Signal-ovim protokolom. Velika mana ove aplikacije je što se oslanja na SMS poruke (najnebezbedniji način za slanje poruka) ali to joj je i najveća prednost. Ponekad smo prosto primorani da koristimo SMS poruke kao što je mesto na kom je signal previše loš za slanje poruka preko interneta.
 
-Preporučuje se kao poslednja opcija ukoliko ste primorani da koristite SMS poruke, da makar niko ne može da vidi šta pišete.
+Preporučuje se kao poslednja opcija, ukoliko ste primorani da koristite SMS poruke, da makar niko ne može da vidi šta pišete.
