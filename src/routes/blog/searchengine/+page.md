@@ -1,45 +1,44 @@
 ---
 layout: blog
-title: naslov
+title: Internet pretraživači
 description: |
-  deskripcija
+  kako da bezbedno pretražujemo internet?
 featuredImage: /favicon.svg
 ---
 
 # Uvod
 
-Slanje poruka je jedna od glavnih uloga telefona, nažalost danas je veoma teško bezbedno i privatno poslati poruku. Ovo su aplikacije otvorenog izvornog koda, koje koriste algoritme za šifrovanje poruka i štite korisnike od nepoželjnih očiju.
+Deo svakodnevne upotrebe telefona je između ostalog i pretraga po internetu, Google, ubedljivo najpoznatiji vid pretrage interneta, obradi otprilike [99 hiljada zahteva za pretragu svake sekunde dok prosečan korisnik pretražuje informacije 3 do 4 puta svakog dana](https://seo.ai/blog/how-many-people-use-google#:~:text=2). Sudeći po tome, bezbedno pretraživanje interneta je ogroman deo bezbednog uređaja.
 
-# [Signal](https://www.signal.org/)
+## Šta je pretraživač
 
-Signal je jedna od najpoznatijih privatnih aplikacija za dopisivanje, stvorena 2013. od strane neprofitne organizacije. U [više navrata je proveren](https://community.signalusers.org/t/overview-of-third-party-security-audits/13243) od stranih tela i izvorni kôd je otvoren široj javnosti. Jedina mana pripisuje se tome da je svaki nalog povezan sa brojem telefona. To znači da se lako može otkriti privatni identitet iza nečijeg naloga, drugačije rečeno, poruke i pozivi su privatni ali ne i anonimni.
+Da bi odgovorili na pitanje kako bezbedno pretraživati internet prvo moramo shvatiti šta je pretraživač.
 
-Signal se preporučuje za upotrebu kad nemate problem sa manjkom anonimnosti (razgovarate sa ljudima koji vas poznaju). Aplikacija je najsličnija većini modernih aplikacija za dopisivanje pa je zato i najlakša za upotrebu.
+Pretraživač je program koji povezuje korisnika i baze podataka širom sveta. Korisnik unese šta želi da sazna a pretraživač zatim obradi unesenu rečenicu i po njoj izbacuje najrelevantnije rezultate koje je uspeo da pronađe.
 
-# [Session](https://getsession.org/)
+# Loši pretraživači
 
-Za kreiranje Session naloga nije potrebno uneti broj telefona, email adresu niti bilo koji lični podatak koji može da poveže nalog i fizičko lice. Jedino što je potrebno da se kreira nalog jeste "sigurnosna fraza" tj. reč koju korisnik naloga koristi da vrati izgubljen nalog ili da ga prebaci na drugi telefon.
+Često vidimo takozvani tajni (incognito) mod pretrage koji nam omogućava da se nakon svake pretrage briše istorija i navodno čini pretragu anonimnom, to je veoma daleko od istine. Iako se istorija pretrage briše u bezbednom modu, briše se samo lokalno (na uređaju korisnika) ali ne i na serverima sajta, prostije rečeno, mazanje očiju korisnika.
 
-Session koristi [_lokinet_](https://lokinet.org/) koji je decentralizovan _internet unutar interneta_ nalik Tor-u, samo mnogo efikasniji i time brži za slanje poruka. Svaki podatak poslat preko Session aplikacije prolazi kroz tri čvora, uz to da ni jedan nema sve potrebne podatke o pošiljaocu, primaocu i poslatom sadržaju.
+# Dobri pretraživači
 
-Bitno je naglasiti da je Session [otvorenog izvora i proveren](https://blog.quarkslab.com/resources/2021-05-04_audit-of-session-secure-messaging-application/20-08-Oxen-REP-v1.4.pdf) što osigurava svakom korisniku da su izjave o privatnosti i anonimnosti aplikacije validne.
+Dobar pretraživač krije istoriju pretrage i blokira programe za praćenje kao i reklame koje služe da sakupe informacije o korisnicima. Pretraživač krije IP adresu korisnika i odvaja korisnika od vlasnika sajta 
 
-Session je zapravo anoniman, tj. nije moguće povezati privatni identitet sa nalogom. Zbog toga se preporučuje za dopisivanje sa strancima i ljudima kojima nije potrebno/poželjno da znaju tačno sa kime komuniciraju.
+Mane bezbedne pretrage su u vidu manjka komfora, bezbedna pretraga je znatno sporija i rezultati nisu personalizovani zbog manjka informacija o korisnuku koji pretražuje.
 
-# [Briar](https://briarproject.org/)
+## [Brave]()
 
-Briar se ne oslanja na skladištenje podataka na serverima već na direktnu komunikaciju između dva telefona, svaki poslat podatak se čuva samo na telefonu primaoca i pošiljaoca, pa tako krađa i nadgledanje poslatog materijala postaje nemoguće.
+## [Tor]()
 
-Velika prednost ove aplikacije je što joj za rad nije potrebna internet konekcija već se telefoni međusobno mogu povezati sa WiFi ili Bluetooth.
+Tor radi na principu poslednjeg koraka, 
 
-Jedna od nesvakidašnjih funkcionalnosti u poređenju sa ostalim aplikacijama za slanje poruka je _panic button_. Ova opcija služi da korisnik pritiskom na dugme obriše sve podatke sa Briar aplikacije i time u potpunosti razori svoj trag, poput Tanosa samo što je moralno prihvatljivo.
+##
 
-Nudi korisnicima maksimalnu privatnost i anonimnost ali po cenu komfora. Naime, kako bi poruka stigla do primaoca oba uređaja moraju imati uključenu aplikaciju makar u pozadini (što troši bateriju) ili se dopisivati u dogovoreno vreme.
+## [Hrčko](https://hearch.co)
 
-Ovo je već teška artiljerija, praktično nemoguće za ometanje kontakta i narušavanje privatnosti. Preporučuje se kad želite da budete sigurni da ništa ne može da stane na put komunikaciji sa drugom osobom.
+Hrčko je novi pretraživač stvoren sa ciljem da bude anoniman i brz, koristi rezultate sa drugih poznatih pretraživača poput duck duck go, brave, bing, swisscows i mnogih drugih pa su rezultati mnogo precizniji u pretrazi želenjih informacija.
 
-# [Silence](https://silence.im/)
+Svaka pretraga na Hrčku ide u isti server, što dovodi do toga da se zna šta je pretraživano ali ne i ko je to pretražio 
 
-Silence je aplikacija koja vrši šifrovanje SMS poruka Signal-ovim protokolom. Velika mana ove aplikacije je što se oslanja na SMS poruke (najnebezbedniji način za slanje poruka) ali to joj je i najveća prednost. Ponekad smo prosto primorani da koristimo SMS poruke kao što je mesto na kom je signal previše loš za slanje poruka preko interneta.
+Važno je napomenuti da je deo locki tima ujedno i deo tima koji je stvorio hrčka.
 
-Preporučuje se kao poslednja opcija, ukoliko ste primorani da koristite SMS poruke, da makar niko ne može da vidi šta pišete.
