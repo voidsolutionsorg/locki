@@ -1,8 +1,7 @@
 ---
 layout: blog
 title: Internet pretraživači
-description: |
-  kako da bezbedno pretražujemo internet?
+description: Bezbedno pretraživanje interneta
 featuredImage: /favicon.svg
 ---
 
@@ -22,7 +21,7 @@ Pretraživač je program koji povezuje korisnika i baze podataka širom sveta. K
 
 # Dobri pretraživači
 
-Dobar pretraživač krije istoriju pretrage i blokira programe za praćenje kao i reklame koje služe da sakupe informacije o korisnicima. Pretraživač krije IP adresu korisnika i odvaja korisnika od vlasnika sajta 
+Dobar pretraživač ne čuva istoriju pretrage i blokira programe za praćenje kao i reklame koje služe da sakupe informacije o korisnicima. Pretraživač ne pamti IP adresu korisnika i odvaja korisnika od vlasnika sajta.
 
 Mane bezbedne pretrage su u vidu manjka komfora, bezbedna pretraga je znatno sporija i rezultati nisu personalizovani zbog manjka informacija o korisnuku koji pretražuje.
 
@@ -40,5 +39,4 @@ Hrčko je novi pretraživač stvoren sa ciljem da bude anoniman i brz, koristi r
 
 Svaka pretraga na Hrčku ide u isti server, što dovodi do toga da se zna šta je pretraživano ali ne i ko je to pretražio 
 
-Važno je napomenuti da je deo locki tima ujedno i deo tima koji je stvorio hrčka.
-
+Važno je napomenuti da je deo locki tima ujedno i deo tima koji je stvorio hrčka
