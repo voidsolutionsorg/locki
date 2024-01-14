@@ -46,7 +46,7 @@ U produžetku izdvajamo neke od bezbednih pretraživača koji imaju najbolji odn
 
 Otvorenog izvornog koda koji je na bazi Google Chroma (bez dodataka za praćenje korisnika), Brave je najbolja opcija za korisnike kojima je teško da se naviknu na novi izgled pretraživača.
 
-Dobre strane Brave pretraživača su njegova sličnost već popularnom Google Chromu i mogućnost bezbednijeg moda pretrage koji koristi Tor mrežu, važno je napomenuti da ta bezbednija pretraga nije podjednako bezbedna kao pretraga preko Tor search engina već samo bezbednija od obične.
+Dobre strane Brave pretraživača su njegova sličnost već popularnom Google Chromu i mogućnost bezbednijeg moda pretrage koji koristi Tor mrežu, važno je napomenuti da ta bezbednija pretraga nije podjednako bezbedna kao pretraga preko Tor search engina već samo bezbednija od obične (Brave [na svom sajtu potstiče korisnike da koriste Tor](https://community.brave.com/t/difference-between-brave-tor-and-original-tor-browser/269808) u kombinaciji sa Brave pretraživačem).
 
 Velika mana ovog pretraživača je u kontroverznim postupcima kompanije koji umeju da poljuljaju veru korisnika u tvrdnje da im kompanija želi najbolje, ali korisnici to mogu da protumače i kao vrlinu jer je kod pod konstantnom prismotrom u potrazi za sledeć
 
@@ -60,4 +60,10 @@ Jedina realna mana upotrebe Mulla svodi se na to da su neki sajtovi pravljeni is
 
 ## [Tor] (https://www.torproject.org/download/)
 
-Tor pretraživač spada i kategoriju za sebe 
+Tor je ubedljivo najbliža opcija za potpunu anonimnost i bezbednost na internetu, na kraju krajeva stvorila ga je američka vojska za sopstvenu upotrebu kako bi komunicirali bezbedno.
+
+Najbitniji detalj Tor pretraživača je što koristi [Tor search engine]() koji je poznat po svojoj kompleksnoj izradi koja ga čini idealnom alatkom za bezkompromisnu sigurnost pri pretrazi.
+
+Sva ta zaštita naravno sa sobom vuče i mane, pretraga na Toru je veoma spora, ekstenzije skoro pa i ne postoje, a dizajn je jednostavno rečeno vojni, bez ikakvih dodataka za omiljene linkove i bilo kakav dodatak namenjen za prosečnog korisnika.
+
+Upotrebu Tora preporučujemo u kombinaciji sa nekim drugim bezbednim pretraživačem (Brave ili Mull) koji će se koristiti kao svakodnevni alat za pretragu a Tor kao teška artiljerija kad vam treba maksimalna privatnost od neželjenih pogleda.
