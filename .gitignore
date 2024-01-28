@@ -2,11 +2,10 @@
 node_modules
 /build
 /.svelte-kit
-/.devbox
+/.vercel
 /package
 .env
 .env.*
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-/.vercel
