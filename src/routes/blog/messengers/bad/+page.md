@@ -22,7 +22,7 @@ featuredImage: /favicon.svg
 
 Neke aplikacije za dopisivanje su jasno nebezbedne (npr. SMS i Email), neke nemaju šifrovanje _od kraja do kraja_ ([e2ee](https://en.wikipedia.org/wiki/End-to-end_encryption)), dok neke otvoreno češljaju poruke korisnika kako bi se uverile da su po njihovim propisima... Problem nastaje kad opšta javnost smatra da je aplikacija bezbednom za upotrebu dok ona zapravo ne poštuje korisničku privatnost.
 
-Iako mnogi od nas misle da informacije koje pružamo online nisu dovoljne da se stvori konkretan profil o nama, Signal je objavio članak pod naslovom [Instagram reklame koje vam Facebook ne pokazuje](https://www.signal.org/blog/the-instagram-ads-you-will-never-see/) u kome otvoreno da kompanije ne samo da imaju informacije o zanimanju i lokaciji korisnika, već i o njihovom statusu veze, koje hobije vole, koga od poznatih podržavaju, političko opredeljenje, seksualnost i mnoge druge privatne informacije.
+Iako mnogi od nas misle da informacije koje pružamo online nisu dovoljne da se stvori konkretan profil o nama, Signal je objavio članak pod naslovom [Instagram reklame koje vam Facebook ne pokazuje](https://www.signal.org/blog/the-instagram-ads-you-will-never-see/) u kome kompanije ne samo da imaju informacije o zanimanju i lokaciji korisnika, već i o njihovom statusu veze, koje hobije vole, koga od poznatih podržavaju, političko opredeljenje, seksualnost i mnoge druge privatne informacije.
 
 # [Messenger](https://www.messenger.com/)
 
