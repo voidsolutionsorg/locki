@@ -22,6 +22,8 @@ featuredImage: /favicon.svg
 
 Neke aplikacije za dopisivanje su jasno nebezbedne (npr. SMS i Email), neke nemaju šifrovanje _od kraja do kraja_ ([e2ee](https://en.wikipedia.org/wiki/End-to-end_encryption)), dok neke otvoreno češljaju poruke korisnika kako bi se uverile da su po njihovim propisima... Problem nastaje kad opšta javnost smatra da je aplikacija bezbednom za upotrebu dok ona zapravo ne poštuje korisničku privatnost.
 
+Iako mnogi od nas misle da informacije koje pružamo online nisu dovoljne da se stvori konkretan profil o nama, Signal je objavio članak pod naslovom [Instagram reklame koje vam Facebook ne pokazuje](https://www.signal.org/blog/the-instagram-ads-you-will-never-see/) u kome kompanije ne samo da imaju informacije o zanimanju i lokaciji korisnika, već i o njihovom statusu veze, koje hobije vole, koga od poznatih podržavaju, političko opredeljenje, seksualnost i mnoge druge privatne informacije.
+
 # [Messenger](https://www.messenger.com/)
 
 Iako na Messenger-u postoji opcija za šifrovanje poruka, ona nije uvek uključena već se očekuje od korisnika da zna da ta opcija postoji i kako da je aktivira. Nažalost, kako god opisali taj vid šifrovanja nemoguće je biti siguran da li je to stvarno ispoštovano ili Meta ima pristup svakoj poruci.
