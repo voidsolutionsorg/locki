@@ -1,8 +1,8 @@
 <script lang="ts">
-	import logo from '$lib/assets/img/logo.svg';
-	const title = 'Locki';
-	const moto = 'Zaključaj svoj digitalni život';
-	const description =
+	import LogoImg from '$lib/assets/img/logo.svg';
+	const title: string = 'Locki';
+	const moto: string = 'Zaključaj svoj digitalni život';
+	const description: string =
 		'Manjak privatnosti znači manjak slobode. Ne dozvoli drugima da kontrolišu ono što je tvoje.';
 </script>
 
@@ -11,7 +11,7 @@
 		<div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
 			<div class="lg:hidden col-span-6">
 				<img
-					src={logo}
+					src={LogoImg}
 					alt="Locki logo small"
 					class="w-full max-w-xl mx-auto rounded-lg max-h-60"
 					loading="eager"
@@ -34,10 +34,10 @@
 			</div>
 			<div class="hidden lg:block col-span-6">
 				<img
-					src={logo}
+					src={LogoImg}
 					alt="Locki logo large"
 					class="w-full max-w-xl mx-auto rounded-lg"
-					loading="lazy"
+					loading="eager"
 				/>
 			</div>
 		</div>

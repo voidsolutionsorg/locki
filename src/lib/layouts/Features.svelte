@@ -8,7 +8,7 @@
 	<title>{title} | Locki</title>
 </svelte:head>
 
-<article>
+<article id="feature-{title}">
 	<header class="mb-4 bg-primary-600">
 		<span class="py-96">
 			<h1 class="pt-16 text-5xl font-black text-center dark:text-white">
@@ -33,7 +33,7 @@
 		</div>
 	{/if}
 	<div
-		class="prose-xl dark:prose-invert prose-a:text-blue-800 dark:prose-a:text-blue-200 hover:prose-a:underline sm:text-justify max-w-2xl px-6 pt-6 pb-16 mx-auto dark:text-white"
+		class="prose-xl dark:prose-invert prose-a:text-blue-800 dark:prose-a:text-blue-200 hover:prose-a:underline sm:text-justify max-w-4xl px-6 pt-6 pb-16 mx-auto dark:text-white"
 	>
 		<slot />
 	</div>

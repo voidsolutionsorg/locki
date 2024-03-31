@@ -1,15 +1,15 @@
 <script lang="ts">
-	export let url = '';
-	export let title = '';
-	export let description = '';
-	export let featuredImage = '';
+	export let url: string;
+	export let title: string;
+	export let description: string;
+	export let featuredImage: string | undefined;
 </script>
 
 <a href={url}>
 	<div
 		class="h-full flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900"
 	>
-		{#if featuredImage !== ''}
+		{#if featuredImage !== undefined}
 			<div class="w-full">
 				<img
 					src={featuredImage}
