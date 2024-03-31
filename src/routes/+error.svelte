@@ -5,7 +5,7 @@
 		404
 	</h1>
 	<p class="mb-4 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl dark:text-white">
-		Nažalost ovde nema ničega.
+		Nažalost nismo pronašli traženu stranicu.
 	</p>
 	<a
 		href="/"

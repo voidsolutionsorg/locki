@@ -4,7 +4,7 @@ install:
 dev:
 	pnpm run dev
 
-build:
+all:
 	pnpm run build
 
 preview:

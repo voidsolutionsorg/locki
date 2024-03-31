@@ -8,8 +8,8 @@
 		featuredImage: string;
 	};
 	async function convertToPost(p: [string, () => Promise<any>]) {
-		const url = p[0];
-		const obj = await p[1]();
+		const url: string = p[0];
+		const obj: any = await p[1]();
 		const post: Post = {
 			url: '/features' + url.slice(1, url.length - 9),
 			title: obj['title'],

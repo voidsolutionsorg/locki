@@ -1,11 +1,34 @@
 <script lang="ts">
-	import logo from '$lib/assets/img/logo.svg';
+	import { onMount } from 'svelte';
+	import LogoImg from '$lib/assets/img/logo.svg';
+	import type { LinkType } from '$lib/types/link';
 
-	type Link = {
-		title: string;
-		href: string;
-	};
-	export let links: Link[] = [];
+	export let links: LinkType[];
+
+	let darkMode: boolean;
+
+	onMount(() => {
+		const theme: string | null = localStorage.getItem('theme');
+
+		if (theme === 'dark') {
+			darkMode = true;
+		} else if (theme === 'light') {
+			darkMode = false;
+		} else {
+			darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+		}
+	});
+
+	function toggleDarkMode() {
+		darkMode = !darkMode;
+		localStorage.setItem('theme', darkMode ? 'dark' : 'light');
+
+		if (darkMode) {
+			document.documentElement.classList.add('dark');
+		} else {
+			document.documentElement.classList.remove('dark');
+		}
+	}
 </script>
 
 <div
@@ -15,9 +38,10 @@
 		<div class="flex flex-row items-center justify-between p-4">
 			<a href="/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
 				<img
-					src={logo}
+					src={LogoImg}
 					class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70"
 					alt="Locki Logo"
+					loading="eager"
 				/>
 				<div
 					class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60"
@@ -36,14 +60,15 @@
 					{link.title}
 				</a>
 			{/each}
-			<!-- <button
+			<button
 				id="theme-toggle"
 				type="button"
-				class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden"
+				class="ml-4 hover:text-white hover:bg-primary-600"
+				on:click={toggleDarkMode}
 			>
 				<svg
 					id="theme-toggle-dark-icon"
-					class="hidden w-5 h-5"
+					class="dark:hidden w-8 h-8"
 					fill="currentColor"
 					viewBox="0 0 20 20"
 					xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +77,7 @@
 				</svg>
 				<svg
 					id="theme-toggle-light-icon"
-					class="hidden w-5 h-5"
+					class="hidden dark:block w-8 h-8"
 					fill="currentColor"
 					viewBox="0 0 20 20"
 					aria-label="Dark or Light Mode"
@@ -64,7 +89,7 @@
 						clip-rule="evenodd"
 					></path>
 				</svg>
-			</button> -->
+			</button>
 		</nav>
 	</div>
 </div>
