@@ -13,7 +13,7 @@ Deo svakodnevne upotrebe telefona je između ostalog i pretraga po internetu, Go
 
 Izgovor nalik "Ja nemam šta da krijem, samim tim nemam problem što mi sakupljaju podatke" je analogan mišljenju "Ja nemam šta da krijem, samim tim nemam problem što mi korporacije sede u dnevnom boravku i snimaju svaki trenutak mog života".
 
-Pre svega bitno je naglasiti da veoma mali broj korisnika danas zna šta ne smeju da rade na svojim uređajima. Proizvođači telefona najavljuju upotrebu program koji, između ostalog, [pretražuje galeriju i čita poruke kako bi se uverio da su u skladu sa uslovima upotrebe uređaja](https://www.wired.com/story/apple-photo-scanning-csam-communication-safety-messages/). Iako kompanije koje uvode ovakve programe (koji se ne mogu ugasiti od strane korisnika) tvrde da uvođenjem istih sprečavaju zlonamernu upotrebu uređaja, mnogi bi se složili da privatne slike nemaju razlog da budu na dohvat ruke proizvođača telefona.
+Pre svega bitno je naglasiti da veoma mali broj korisnika danas zna šta ne smeju da rade na svojim uređajima. Proizvođači telefona najavljuju upotrebu programa koji, između ostalog, [pretražuje galeriju i čita poruke kako bi se uverio da su u skladu sa uslovima upotrebe uređaja](https://www.wired.com/story/apple-photo-scanning-csam-communication-safety-messages/). Iako kompanije koje uvode ovakve programe (koji se ne mogu ugasiti od strane korisnika) tvrde da uvođenjem istih sprečavaju zlonamernu upotrebu uređaja, mnogi bi se složili da privatne slike nemaju razlog da budu na dohvat ruke proizvođača telefona.
 
 Pored opravdanog i logičnog straha da drugi ljudi imaju pristup korisničkim privatnim slikama, porukama, snimcima... postoji i strah od pogrešnih optužbi za širok spektar zločina:
 
