@@ -7,11 +7,11 @@ featuredImage: /favicon.svg
 
 # Uvod
 
-Deo svakodnevne upotrebe telefona je između ostalog i pretraga po internetu, Google, ubedljivo najpoznatiji vid pretrage interneta, obradi otprilike [99 hiljada zahteva za pretragu svake sekunde dok prosečan korisnik pretražuje informacije 3 do 4 puta svakog dana](https://seo.ai/blog/how-many-people-use-google#:~:text=2). Sudeći po tome, bezbedno pretraživanje interneta je ogroman deo bezbednog uređaja.
+Deo svakodnevne upotrebe telefona je između ostalog i pretraga po internetu. Google, ubedljivo najpoznatiji vid pretrage interneta, obradi otprilike [99 hiljada zahteva za pretragu svake sekunde dok prosečan korisnik pretražuje informacije 3 do 4 puta svakog dana](https://seo.ai/blog/how-many-people-use-google#:~:text=2). Sudeći po tome, bezbedno pretraživanje interneta je ogroman deo bezbednog uređaja.
 
 ## Zašto je bezbedna pretraga bitna?
 
-Izgovor nalik "Ja nemam šta da krijem, samim tim nemam problem što mi sakupljaju podatke" je analogan mišljenju "Ja nemam šta da krijem, samim tim nemam problem što mi korporacije sede u dnevnom boravku i snimaju svaki trenutak mog života".
+Argument nalik "Ja nemam šta da krijem, samim tim nemam problem što mi sakupljaju podatke" je analogan mišljenju "Ja nemam šta da krijem, samim tim nemam problem što mi korporacije sede u dnevnom boravku i snimaju svaki trenutak mog života".
 
 Pre svega bitno je naglasiti da veoma mali broj korisnika danas zna šta ne smeju da rade na svojim uređajima. Proizvođači telefona najavljuju upotrebu programa koji, između ostalog, [pretražuje galeriju i čita poruke kako bi se uverio da su u skladu sa uslovima upotrebe uređaja](https://www.wired.com/story/apple-photo-scanning-csam-communication-safety-messages/). Iako kompanije koje uvode ovakve programe (koji se ne mogu ugasiti od strane korisnika) tvrde da uvođenjem istih sprečavaju zlonamernu upotrebu uređaja, mnogi bi se složili da privatne slike nemaju razlog da budu na dohvat ruke proizvođača telefona.
 
@@ -29,7 +29,7 @@ Pored opravdanog i logičnog straha da drugi ljudi imaju pristup korisničkim pr
 
 Loš pretraživač pruža korisnicima lažnu sigurnost pretrage dok zapravo čuva podatke o tome šta korisnika interesuje (i samim tim šta kasnije da mu nudi), istoriju pretrage i najgore od svega, pravi profil za svakog korisnika u kom čuva sve što vremenom saznaje o njemu.
 
-Često vidimo takozvani tajni (incognito) mod pretrage koji nam omogućava da se nakon svake pretrage briše istorija i navodno čini pretragu anonimnom, što je veoma daleko od istine. Iako se istorija pretrage briše u bezbednom modu, briše se samo lokalno (na uređaju korisnika) ali ne i na serverima sajta, [tužba](https://www.npr.org/2023/12/30/1222268415/google-settles-5-billion-privacy-lawsuit) iz 2020 koja je kompaniju Alphabet (vlasnik kompanije Google) koštala 5 milijardi dolara dokazuje nam da takozvani incognito mod pretrage nije ništa drugo do prividne "bezbednosti".
+Često vidimo takozvani tajni (incognito) mod pretrage koji nam omogućava da se nakon svake pretrage briše istorija i navodno čini pretragu anonimnom, što je veoma daleko od istine. Iako se istorija pretrage briše u bezbednom modu, briše se samo lokalno (na uređaju korisnika) ali ne i na serverima sajta, [tužba](https://www.npr.org/2023/12/30/1222268415/google-settles-5-billion-privacy-lawsuit) iz 2020 koja je kompaniju Alphabet (vlasnik kompanije Google) koštala 5 milijardi dolara dokazuje nam da takozvani incognito mod pretrage nije ništa drugo do prividna "bezbednost".
 
 # Dobri pretraživači
 
