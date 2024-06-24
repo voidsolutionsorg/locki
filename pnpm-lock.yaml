@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^4.4.0
     version: 4.4.0(@sveltejs/kit@2.5.10)(wrangler@3.55.0)
   '@sveltejs/enhanced-img':
-    specifier: ^0.2.0
-    version: 0.2.0(svelte@4.2.15)
+    specifier: ^0.3.0
+    version: 0.3.0(svelte@4.2.15)
   '@sveltejs/kit':
     specifier: ^2.5.10
     version: 2.5.10(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.15)(vite@5.2.11)
@@ -1061,10 +1061,10 @@ packages:
       wrangler: 3.55.0
     dev: true
 
-  /@sveltejs/enhanced-img@0.2.0(svelte@4.2.15):
-    resolution: {integrity: sha512-W6wG0RxQYoL13LmUl8IBHeQatMXSd2ybrjg/WQuE5EoIJq+wUkf1hUDaMp9PHe4ubpnzWK/c0QaE5Ls+zjHimA==}
+  /@sveltejs/enhanced-img@0.3.0(svelte@4.2.15):
+    resolution: {integrity: sha512-o8FdEUyJR/+LjUUl4sgB9QeM9rSGpOzTO6/CH0AmO/FgwWkcJdj/MwVNtr2F/AtaPgNfzvRpnExjklmuuDOtPA==}
     dependencies:
-      magic-string: 0.30.8
+      magic-string: 0.30.10
       svelte-parse-markup: 0.1.2(svelte@4.2.15)
       vite-imagetools: 7.0.1
     transitivePeerDependencies:
