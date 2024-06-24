@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@sveltejs/adapter-cloudflare':
-    specifier: ^4.4.0
-    version: 4.4.0(@sveltejs/kit@2.5.10)(wrangler@3.55.0)
+    specifier: ^4.5.0
+    version: 4.5.0(@sveltejs/kit@2.5.10)(wrangler@3.55.0)
   '@sveltejs/enhanced-img':
     specifier: ^0.2.0
     version: 0.2.0(svelte@4.2.15)
@@ -1048,8 +1048,8 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/adapter-cloudflare@4.4.0(@sveltejs/kit@2.5.10)(wrangler@3.55.0):
-    resolution: {integrity: sha512-sh2kSapbQq3QJFOYcva4MtdzZStoAq2Lr93heGFCR924/OywnW2/Ru7/sxByXW806kvLgStZO+hKZh3Va8WVjw==}
+  /@sveltejs/adapter-cloudflare@4.5.0(@sveltejs/kit@2.5.10)(wrangler@3.55.0):
+    resolution: {integrity: sha512-Uf4Zyh7ldEsK+Ej1F4CQy51MHJDY34ilVMIcOkPbmTTx14l/0Bl3aitenhHnqCMgkczglk1MnP5pbPdksr5Img==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^3.28.4
