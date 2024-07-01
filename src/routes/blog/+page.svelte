@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Blog from '$lib/components/cards/Blog.svelte';
+	import BlogLoading from '$lib/components/cards/BlogLoading.svelte';
 
 	type BlogPost = {
 		url: string;
@@ -40,7 +41,7 @@
 		<div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
 			{#each posts as post}
 				{#await post}
-					<Blog />
+					<BlogLoading />
 				{:then post}
 					<Blog
 						url={post.url}

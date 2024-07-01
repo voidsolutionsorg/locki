@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Features from '$lib/components/cards/Features.svelte';
+	import FeaturesLoading from '$lib/components/cards/FeaturesLoading.svelte';
 
 	type Post = {
 		url: string;
@@ -38,7 +39,7 @@
 		<div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
 			{#each posts as post}
 				{#await post}
-					<Features />
+					<FeaturesLoading />
 				{:then post}
 					<Features
 						url={post.url}
