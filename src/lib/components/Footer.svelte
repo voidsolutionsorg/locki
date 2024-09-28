@@ -36,7 +36,7 @@
                     />
                 </svg>
             </a> -->
-			<a href="https://github.com/tminaorg/locki" class="text-gray-400 hover:text-gray-300">
+			<a href="https://github.com/voidsolutionsorg/locki" class="text-gray-400 hover:text-gray-300">
 				<span class="sr-only">GitHub</span>
 				<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path
