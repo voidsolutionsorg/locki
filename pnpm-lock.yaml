@@ -12,8 +12,8 @@ importers:
         specifier: ^3.2.4
         version: 3.2.4(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8))
       '@sveltejs/enhanced-img':
-        specifier: ^0.3.4
-        version: 0.3.4(rollup@4.24.0)(svelte@4.2.19)(vite@5.4.8)
+        specifier: ^0.3.10
+        version: 0.3.10(rollup@4.24.0)(svelte@4.2.19)(vite@5.4.8)
       '@sveltejs/kit':
         specifier: ^2.5.28
         version: 2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8)
@@ -502,8 +502,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/enhanced-img@0.3.4':
-    resolution: {integrity: sha512-eX+ob5uWr0bTLMKeG9nhhM84aR88hqiLiyEfWZPX7ijhk/wlmYSUX9nOiaVHh2ct1U+Ju9Hhb90Copw+ZNOB8w==}
+  '@sveltejs/enhanced-img@0.3.10':
+    resolution: {integrity: sha512-1JxjthN6yb1md3rSFbHRDBi/Jj2R9EjE06vh9zbWgYxm5d4UUphTzNICJTis8bkIDQilbAokrkaQtfRpKSE7qg==}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: '>= 5.0.0'
@@ -1884,7 +1884,7 @@ snapshots:
 
   '@rollup/pluginutils@5.1.0(rollup@4.24.0)':
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': 1.0.6
       estree-walker: 2.0.2
       picomatch: 2.3.1
     optionalDependencies:
@@ -1943,7 +1943,7 @@ snapshots:
       '@sveltejs/kit': 2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8)
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/enhanced-img@0.3.4(rollup@4.24.0)(svelte@4.2.19)(vite@5.4.8)':
+  '@sveltejs/enhanced-img@0.3.10(rollup@4.24.0)(svelte@4.2.19)(vite@5.4.8)':
     dependencies:
       magic-string: 0.30.10
       svelte: 4.2.19
