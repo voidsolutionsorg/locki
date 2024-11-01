@@ -36,6 +36,24 @@
                     />
                 </svg>
             </a> -->
+			<a href="mailto:contact@locki.tech" class="text-gray-400 hover:text-gray-300">
+				<span class="sr-only">contact@locki.tech</span>
+				<svg
+					class="w-6 h-6"
+					fill="none"
+					stroke="currentColor"
+					viewBox="0 0 24 24"
+					aria-hidden="true"
+				>
+					<path
+						d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+					<rect x="3" y="5" width="18" height="14" rx="2" stroke-width="2" stroke-linecap="round" />
+				</svg>
+			</a>
 			<a href="https://github.com/voidsolutionsorg/locki" class="text-gray-400 hover:text-gray-300">
 				<span class="sr-only">GitHub</span>
 				<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
