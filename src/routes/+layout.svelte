@@ -12,6 +12,10 @@
 		{
 			title: 'Blog',
 			href: '/blog'
+		},
+		{
+			title: 'Kontakt',
+			href: '/contact'
 		}
 	];
 </script>
